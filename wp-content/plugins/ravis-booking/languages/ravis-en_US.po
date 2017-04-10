@@ -1,0 +1,776 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ravis Booking System\n"
+"POT-Creation-Date: 2016-09-17 10:47+0330\n"
+"PO-Revision-Date: 2016-09-17 10:47+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: booking-overview.php:2 ravis-booking.php:283
+msgid "Booking Overview"
+msgstr ""
+
+#: fields/block_dates.php:77
+msgid "From"
+msgstr ""
+
+#: fields/block_dates.php:78
+msgid "Select the block date starting date"
+msgstr ""
+
+#: fields/block_dates.php:84
+msgid "To"
+msgstr ""
+
+#: fields/block_dates.php:85
+msgid "Select the block date ending date"
+msgstr ""
+
+#: fields/block_dates.php:91
+msgid "Select Rooms"
+msgstr ""
+
+#: fields/block_dates.php:92
+msgid "Select rooms which is blocked"
+msgstr ""
+
+#: fields/block_dates.php:107
+msgid "Block Dates Information"
+msgstr ""
+
+#: fields/booking-details.php:23
+msgid "First Name *"
+msgstr ""
+
+#: fields/booking-details.php:29
+msgid "Last Name *"
+msgstr ""
+
+#: fields/booking-details.php:35
+msgid "Email *"
+msgstr ""
+
+#: fields/booking-details.php:41
+msgid "Phone *"
+msgstr ""
+
+#: fields/booking-details.php:47
+msgid "City"
+msgstr ""
+
+#: fields/booking-details.php:53
+msgid "Address"
+msgstr ""
+
+#: fields/booking-details.php:59
+msgid "Special Requirements"
+msgstr ""
+
+#: fields/booking-details.php:65
+msgid "Check in"
+msgstr ""
+
+#: fields/booking-details.php:67 fields/booking-details.php:74
+msgid "This field is not editable. Please note to date you entered"
+msgstr ""
+
+#: fields/booking-details.php:72
+msgid "Check out"
+msgstr ""
+
+#: fields/booking-details.php:79
+msgid "Booking Season"
+msgstr ""
+
+#: fields/booking-details.php:81
+msgid ""
+"This Field shows that the booking is in which season? \"High Season\" or "
+"\"Low Season\""
+msgstr ""
+
+#: fields/booking-details.php:96
+msgid "Booking Details"
+msgstr ""
+
+#: fields/booking-details.php:114
+msgid "Booking ID :"
+msgstr ""
+
+#: fields/booking-details.php:141
+msgid "High Season"
+msgstr ""
+
+#: fields/booking-details.php:142
+msgid "Low Season"
+msgstr ""
+
+#: fields/booking-details.php:143
+msgid "Normal Season"
+msgstr ""
+
+#: fields/booking-price.php:65
+msgid "No Package"
+msgstr ""
+
+#: fields/booking-price.php:73
+msgid "Package List"
+msgstr ""
+
+#: fields/booking-price.php:74
+msgid "Select the package."
+msgstr ""
+
+#: fields/booking-price.php:80
+msgid "Total Price"
+msgstr ""
+
+#: fields/booking-price.php:94
+msgid "Booking Price Details"
+msgstr ""
+
+#: fields/booking-price.php:160 fields/booking-price.php:164
+#: shortcode.class.php:421 shortcode.class.php:484
+msgid "per night"
+msgstr ""
+
+#: fields/booking-rooms.php:23
+msgid "Choose the room"
+msgstr ""
+
+#: fields/booking-rooms.php:24
+msgid "Choose the room for this booking"
+msgstr ""
+
+#: fields/booking-rooms.php:40
+msgid "Choose Room"
+msgstr ""
+
+#: fields/booking-rooms.php:86
+msgid "Room Title"
+msgstr ""
+
+#: fields/booking-rooms.php:90
+msgid "Adult Guests"
+msgstr ""
+
+#: fields/booking-rooms.php:94
+msgid "Children Guests"
+msgstr ""
+
+#: fields/booking-rooms.php:100 fields/booking-rooms.php:335
+msgid "Remove"
+msgstr ""
+
+#: fields/booking-rooms.php:112
+msgid "Add a room"
+msgstr ""
+
+#: fields/booking-rooms.php:254
+msgid "Are you sure to remove this room?"
+msgstr ""
+
+#: fields/booking-rooms.php:284 fields/booking-rooms.php:345
+msgid "You forgot to add the room, please add room."
+msgstr ""
+
+#: fields/booking-rooms.php:289
+msgid "Please add how many guest we have!"
+msgstr ""
+
+#: fields/booking-rooms.php:307
+msgid "This room is available."
+msgstr ""
+
+#: fields/booking-rooms.php:335
+msgid "Select room *"
+msgstr ""
+
+#: fields/booking-rooms.php:335
+msgid "Adult *"
+msgstr ""
+
+#: fields/booking-rooms.php:335 shortcode.class.php:128
+#: shortcode.class.php:159
+msgid "Children"
+msgstr ""
+
+#: fields/booking-rooms.php:335 shortcode.class.php:101
+msgid "Check Availability"
+msgstr ""
+
+#: fields/booking-rooms.php:352
+msgid "Please choose available room."
+msgstr ""
+
+#: fields/booking-rooms.php:358
+msgid "Please check availability of you room."
+msgstr ""
+
+#: fields/packages.php:24 fields/rooms_price.php:23
+msgid "Price"
+msgstr ""
+
+#: fields/packages.php:25
+msgid "Add the Price of the package / per night"
+msgstr ""
+
+#: fields/packages.php:44 fields/rooms_price.php:43
+msgid "Price Details"
+msgstr ""
+
+#: fields/page_id_class.php:22
+msgid "Page ID"
+msgstr ""
+
+#: fields/page_id_class.php:23
+msgid ""
+"Add your custom ID for using it to change the default style. List of the "
+"default page IDs are <a href=\"#\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: fields/page_id_class.php:28
+msgid "Page Class"
+msgstr ""
+
+#: fields/page_id_class.php:29
+msgid ""
+"Add your custom class for using it to change the default style. List of the "
+"default page classes are <a href=\"#\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: fields/page_id_class.php:34
+msgid "Page Breadcrumb Background"
+msgstr ""
+
+#: fields/page_id_class.php:36
+msgid "Upload your desired image as page's breadcrumb."
+msgstr ""
+
+#: fields/page_id_class.php:50
+msgid "Page Setting"
+msgstr ""
+
+#: fields/page_id_class.php:93
+msgid "Choose Image"
+msgstr ""
+
+#: fields/page_id_class.php:94
+msgid "Remove Image"
+msgstr ""
+
+#: fields/rooms-luxury.php:20
+msgid "Luxury Room"
+msgstr ""
+
+#: fields/rooms-luxury.php:21
+msgid "Check this checkbox if you want to \"Luxury Rooms\" shortcode shows it."
+msgstr ""
+
+#: fields/rooms-luxury.php:34
+msgid "luxury Details"
+msgstr ""
+
+#: fields/rooms_gallery.php:23
+msgid "Image Gallery"
+msgstr ""
+
+#: fields/rooms_gallery.php:24
+msgid "Add the images of the rooms"
+msgstr ""
+
+#: fields/rooms_gallery.php:39
+msgid "Room Images Gallery"
+msgstr ""
+
+#: fields/rooms_gallery.php:108
+msgid "Add Images to Slideshow"
+msgstr ""
+
+#: fields/rooms_gallery.php:112
+msgid "Add to slideshow"
+msgstr ""
+
+#: fields/rooms_gallery.php:133 fields/rooms_gallery.php:175
+msgid "Delete image"
+msgstr ""
+
+#: fields/rooms_gallery.php:183
+msgid "Add slideshow images"
+msgstr ""
+
+#: fields/rooms_info.php:23
+msgid "Short Description"
+msgstr ""
+
+#: fields/rooms_info.php:24
+msgid ""
+"Add a short description about this room to be shown in the room listing "
+"pages. Do Not use HTML tags."
+msgstr ""
+
+#: fields/rooms_info.php:29
+msgid "Room Count"
+msgstr ""
+
+#: fields/rooms_info.php:30
+msgid "Add the count of this kind of room in the hotel like : 30"
+msgstr ""
+
+#: fields/rooms_info.php:35
+msgid "Maximum Guest Count"
+msgstr ""
+
+#: fields/rooms_info.php:36
+msgid "Add the maximum count of guest can be placed in this room like : 5"
+msgstr ""
+
+#: fields/rooms_info.php:41
+msgid "Minimum Stay"
+msgstr ""
+
+#: fields/rooms_info.php:42
+msgid ""
+"Add the minimum stay night for this room like : \"2\". <br> which means that "
+"guests must book this room for 2 or more nights. <br> Leave it blank if the "
+"room doesn't have minimum stay limitation."
+msgstr ""
+
+#: fields/rooms_info.php:47
+msgid "Room Size"
+msgstr ""
+
+#: fields/rooms_info.php:48
+msgid "Add the area of room in \"SQF\""
+msgstr ""
+
+#: fields/rooms_info.php:53
+msgid "View"
+msgstr ""
+
+#: fields/rooms_info.php:54
+msgid "Add the view of room"
+msgstr ""
+
+#: fields/rooms_info.php:68
+msgid "Price info"
+msgstr ""
+
+#: fields/rooms_price.php:24
+msgid "Add the Price of the room"
+msgstr ""
+
+#: fields/rooms_services.php:28
+msgid "Room Services"
+msgstr ""
+
+#: fields/rooms_services.php:83
+msgid "Services"
+msgstr ""
+
+#: fields/rooms_services.php:84
+msgid "Select the services which is available for this room."
+msgstr ""
+
+#: fields/services.php:23
+msgid "Load in Slider"
+msgstr ""
+
+#: fields/services.php:24
+msgid ""
+"Check this field, if you want that this service is loaded in the service "
+"slider"
+msgstr ""
+
+#: fields/services.php:39
+msgid "Service Extra Information"
+msgstr ""
+
+#: fields/staff-type.php:23
+msgid "Check this box if you want to show staff in the staff's slider"
+msgstr ""
+
+#: fields/staff-type.php:28
+msgid "Check this box if you want to show staff in the staff tiled list"
+msgstr ""
+
+#: fields/staff-type.php:42
+msgid "Setting"
+msgstr ""
+
+#: fields/staff.php:23
+msgid "Title"
+msgstr ""
+
+#: fields/staff.php:24
+msgid ""
+"Add the title of the employee like : \"Manager\", \"Executive Director\" and "
+"etc."
+msgstr ""
+
+#: fields/staff.php:29
+msgid "Email"
+msgstr ""
+
+#: fields/staff.php:30
+msgid "Add the email of the employee"
+msgstr ""
+
+#: fields/staff.php:35
+msgid "Skype"
+msgstr ""
+
+#: fields/staff.php:36
+msgid "Add the Skype ID of the employee"
+msgstr ""
+
+#: fields/staff.php:41
+msgid "Facebook"
+msgstr ""
+
+#: fields/staff.php:42
+msgid "Add the facebook ID of the employee"
+msgstr ""
+
+#: fields/staff.php:47
+msgid "Twitter"
+msgstr ""
+
+#: fields/staff.php:48
+msgid "Add the twitter ID of the employee"
+msgstr ""
+
+#: fields/staff.php:53
+msgid "Google Plus"
+msgstr ""
+
+#: fields/staff.php:54
+msgid "Add the google plus of the employee"
+msgstr ""
+
+#: fields/staff.php:67
+msgid "Additional information"
+msgstr ""
+
+#: fields/testimonials.php:22
+msgid "Guest Name"
+msgstr ""
+
+#: fields/testimonials.php:23
+msgid "Put the guest's name in this field"
+msgstr ""
+
+#: fields/testimonials.php:28
+msgid "Guest Email"
+msgstr ""
+
+#: fields/testimonials.php:29
+msgid "Put the guest's email in this field"
+msgstr ""
+
+#: fields/testimonials.php:34
+msgid "Guest Phone"
+msgstr ""
+
+#: fields/testimonials.php:35
+msgid "Put the guest's phone in this field"
+msgstr ""
+
+#: fields/testimonials.php:49
+msgid "Testimonials Extra information"
+msgstr ""
+
+#: ravis-booking.php:146
+msgid "Guest Book"
+msgstr ""
+
+#: ravis-booking.php:147
+msgid "Manage the testimonials which is given by hotel's guests."
+msgstr ""
+
+#: ravis-booking.php:163
+msgid "Rooms"
+msgstr ""
+
+#: ravis-booking.php:164
+msgid "Manage the rooms of hotel."
+msgstr ""
+
+#: ravis-booking.php:175
+msgctxt "Taxonomy plural name"
+msgid "Room Categories"
+msgstr ""
+
+#: ravis-booking.php:176
+msgctxt "Taxonomy singular name"
+msgid "Room Category"
+msgstr ""
+
+#: ravis-booking.php:197
+msgid "Service"
+msgstr ""
+
+#: ravis-booking.php:198
+msgid "Manage the services that your hotel provide."
+msgstr ""
+
+#: ravis-booking.php:215
+msgid "Staff"
+msgstr ""
+
+#: ravis-booking.php:216
+msgid "Manage the staff of hotel."
+msgstr ""
+
+#: ravis-booking.php:233
+msgid "Booking"
+msgstr ""
+
+#: ravis-booking.php:234
+msgid "Manage the Booking posts."
+msgstr ""
+
+#: ravis-booking.php:251
+msgid "Block Dates"
+msgstr ""
+
+#: ravis-booking.php:252
+msgid "Manage the Block Dates."
+msgstr ""
+
+#: ravis-booking.php:269
+msgid "Packages"
+msgstr ""
+
+#: ravis-booking.php:270
+msgid "Manage Special offer packages."
+msgstr ""
+
+#: shortcode.class.php:61
+msgid "Find A <b>Room</b>"
+msgstr ""
+
+#: shortcode.class.php:79
+msgid "Choose check in date"
+msgstr ""
+
+#: shortcode.class.php:83
+msgid "Choose check out date"
+msgstr ""
+
+#: shortcode.class.php:90
+msgid "How Many Adult?"
+msgstr ""
+
+#: shortcode.class.php:96
+msgid "How Many Children ?"
+msgstr ""
+
+#: shortcode.class.php:112 shortcode.class.php:143
+msgid "Check-in"
+msgstr ""
+
+#: shortcode.class.php:116 shortcode.class.php:147
+msgid "Check-out"
+msgstr ""
+
+#: shortcode.class.php:122 shortcode.class.php:153
+msgid "Adult"
+msgstr ""
+
+#: shortcode.class.php:133 shortcode.class.php:164
+msgid "Book Now"
+msgstr ""
+
+#: shortcode.class.php:187
+msgid "Luxury Rooms"
+msgstr ""
+
+#: shortcode.class.php:188
+msgid "Best rooms with Best services"
+msgstr ""
+
+#: shortcode.class.php:251 shortcode.class.php:315 shortcode.class.php:565
+#: shortcode.class.php:797 shortcode.class.php:1120 shortcode.class.php:1279
+msgid "No Image"
+msgstr ""
+
+#: shortcode.class.php:258
+msgid "Details"
+msgstr ""
+
+#: shortcode.class.php:263 shortcode.class.php:1130 shortcode.class.php:1289
+msgid "- Per Night"
+msgstr ""
+
+#: shortcode.class.php:276
+msgid "There is not any rooms"
+msgstr ""
+
+#: shortcode.class.php:323 shortcode.class.php:805
+msgid "There is not any slides"
+msgstr ""
+
+#: shortcode.class.php:348
+msgid "Special Packages"
+msgstr ""
+
+#: shortcode.class.php:349
+msgid "Choose one of our special offers"
+msgstr ""
+
+#: shortcode.class.php:423 shortcode.class.php:483
+msgid "Select Package"
+msgstr ""
+
+#: shortcode.class.php:497
+msgid "There is not any packages"
+msgstr ""
+
+#: shortcode.class.php:521
+msgid "Our Services"
+msgstr ""
+
+#: shortcode.class.php:580
+msgid "There is not any services"
+msgstr ""
+
+#: shortcode.class.php:691
+msgid "Do you need to have <span>Hotel</span> / <span>Resort</span> template?"
+msgstr ""
+
+#: shortcode.class.php:692
+msgid "Purchase this template"
+msgstr ""
+
+#: shortcode.class.php:718
+msgid "Pinar Gallery"
+msgstr ""
+
+#: shortcode.class.php:746
+msgid "All"
+msgstr ""
+
+#: shortcode.class.php:757
+msgid "Filters"
+msgstr ""
+
+#: shortcode.class.php:788
+msgid "More ..."
+msgstr ""
+
+#: shortcode.class.php:829
+msgid "Our Staff"
+msgstr ""
+
+#: shortcode.class.php:830
+msgid "Professional & Experienced team"
+msgstr ""
+
+#: shortcode.class.php:892
+msgid "There is not any staff with this ID."
+msgstr ""
+
+#: shortcode.class.php:898
+msgid "Please add the staff ID."
+msgstr ""
+
+#: shortcode.class.php:1034
+msgid "Click Here to"
+msgstr ""
+
+#: shortcode.class.php:1035
+msgid "Share your Experience"
+msgstr ""
+
+#: shortcode.class.php:1036
+msgid "about staying at Pinar Hotel"
+msgstr "about staying at Joseph Hotel"
+
+#: shortcode.class.php:1042
+msgid "Your Feedback is "
+msgstr ""
+
+#: shortcode.class.php:1042
+msgid "Valuable"
+msgstr ""
+
+#: shortcode.class.php:1046
+msgid "Full Name :"
+msgstr ""
+
+#: shortcode.class.php:1047
+msgid "Email :"
+msgstr ""
+
+#: shortcode.class.php:1048
+msgid "Phone :"
+msgstr ""
+
+#: shortcode.class.php:1049
+msgid "Testimonial title :"
+msgstr ""
+
+#: shortcode.class.php:1052
+msgid "Your Testimonial :"
+msgstr ""
+
+#: shortcode.class.php:1053
+msgid "Submit"
+msgstr ""
+
+#: shortcode.class.php:1075
+msgid "Other Rooms"
+msgstr ""
+
+#: shortcode.class.php:1123 shortcode.class.php:1282
+msgid "More Details"
+msgstr ""
+
+#: shortcode.class.php:1156
+msgid "This moment is your life."
+msgstr ""
+
+#: shortcode.class.php:1157
+msgid "Be happy for this moment."
+msgstr ""
+
+#: shortcode.class.php:1177
+msgid "Expanded view"
+msgstr ""
+
+#: shortcode.class.php:1178
+msgid "Click to Play"
+msgstr ""
+
+#: shortcode.class.php:1180
+msgid "Click to Pause"
+msgstr ""
+
+#: shortcode.class.php:1232
+msgid "Our Rooms"
+msgstr ""
+
+#: shortcode.class.php:1233
+msgid "Be our guest in our luxury rooms"
+msgstr ""
+
+#: shortcode.class.php:1299 shortcode.class.php:1384
+msgid "There is not any rooms!"
+msgstr ""
+
+#: shortcode.class.php:1319
+msgid "Latest Blog Posts"
+msgstr ""

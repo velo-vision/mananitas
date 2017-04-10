@@ -1,0 +1,30 @@
+/**
+ * Theme Name: Mananitas Child
+ * Theme URI: http://velosoft.mx
+ * Description: Mananitas Child Template
+ * Template: mananitas
+ * Version: 1.0.0
+ * Author: Velosoft
+ * Author URI: http://velosoft.mx
+ * License: GNU General Public License
+ * License URI: license.txt
+ * Tags: white, responsive-layout, custom-background, threaded-comments, translation-ready, editor-style, custom-menu
+ */
+
+
+ #luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 136% !important;
+    height: auto;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/*style mañannitas Est.*/

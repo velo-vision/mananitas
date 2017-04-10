@@ -1,0 +1,3793 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pinar\n"
+"POT-Creation-Date: 2016-06-29 08:47+0330\n"
+"PO-Revision-Date: 2016-06-29 08:49+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "It looks like that page no longer exists."
+msgstr ""
+
+#: 404.php:17
+#, php-format
+msgid "Would you like to go to <a href=\"%s\">homepage</a> instead?"
+msgstr ""
+
+#: 404.php:24
+msgid "Search …"
+msgstr ""
+
+#: 404.php:26
+msgid "Search"
+msgstr ""
+
+#: admin/core/core/enqueue.php:453
+#: admin/core/inc/extensions/customizer/extension_customizer.php:687
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/core/core/enqueue.php:461
+#: admin/core/inc/extensions/customizer/extension_customizer.php:688
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/core/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: admin/core/core/enqueue.php:477
+#: admin/core/inc/extensions/customizer/extension_customizer.php:689
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/core/core/enqueue.php:484
+msgid "Please Wait"
+msgstr ""
+
+#: admin/core/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: admin/core/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: admin/core/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/core/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: admin/core/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: admin/core/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: admin/core/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: admin/core/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/core/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: admin/core/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: admin/core/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: admin/core/framework.php:232 admin/core/framework.php:236
+msgid "Options"
+msgstr ""
+
+#: admin/core/framework.php:1753
+msgid "Enable"
+msgstr ""
+
+#: admin/core/framework.php:1758
+msgid "Disable"
+msgstr ""
+
+#: admin/core/framework.php:1764
+msgid "moving the mouse over"
+msgstr ""
+
+#: admin/core/framework.php:1766
+msgid "clicking"
+msgstr ""
+
+#: admin/core/framework.php:1770
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: admin/core/framework.php:1775
+msgid "Hints"
+msgstr ""
+
+#: admin/core/framework.php:1902
+msgid "Default"
+msgstr ""
+
+#: admin/core/framework.php:2782
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: admin/core/framework.php:2791
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: admin/core/framework.php:2867
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: admin/core/framework.php:3960
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: admin/core/framework.php:3975
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: admin/core/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: admin/core/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: admin/core/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: admin/core/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: admin/core/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: admin/core/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: admin/core/inc/class.redux_filesystem.php:31
+#: admin/core/inc/class.redux_filesystem.php:60
+#: admin/core/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: admin/core/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: admin/core/inc/class.redux_filesystem.php:60
+#: admin/core/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: admin/core/inc/class.redux_helpers.php:610
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: admin/core/inc/class.redux_themecheck.php:61
+#, php-format
+msgid ""
+"The theme you are testing has %s embedded. We invite you to read the %sTheme-"
+"Check Documentation%s to understand some warnings you will see because of "
+"Redux."
+msgstr ""
+
+#: admin/core/inc/class.redux_themecheck.php:109
+msgid ""
+"The following directories & files are still located in your <strong>Redux</"
+"strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/extension_customizer.php:722
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/extension_customizer.php:723
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/extension_customizer.php:724
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_panel.php:89
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_panel.php:114
+#: admin/core/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_panel.php:138
+#: admin/core/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/core/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:91
+msgid "Import Options"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:95
+msgid "Import from File"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:98
+msgid "Import from URL"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid "Import"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:132
+msgid "Copy Data"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:133
+msgid "Download Data File"
+msgstr ""
+
+#: admin/core/inc/extensions/import_export/import_export/field_import_export.php:134
+msgid "Copy Export URL"
+msgstr ""
+
+#: admin/core/inc/extensions/options_object/extension_options_object.php:82
+#: admin/core/inc/extensions/options_object/options_object/field_options_object.php:104
+msgid "Options Object"
+msgstr ""
+
+#: admin/core/inc/extensions/options_object/options_object/field_options_object.php:107
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:124
+#: admin/core/inc/fields/color/field_color.php:73
+#: admin/core/inc/fields/color_gradient/field_color_gradient.php:79
+#: admin/core/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:277
+#: admin/core/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:314
+#: admin/core/inc/fields/media/field_media.php:198
+#: admin/core/inc/fields/slides/field_slides.php:126
+#: admin/core/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: admin/core/inc/fields/background/field_background.php:321
+#: admin/core/inc/fields/media/field_media.php:205
+#: admin/core/inc/fields/multi_text/field_multi_text.php:69
+#: admin/core/inc/fields/multi_text/field_multi_text.php:73
+#: admin/core/inc/fields/multi_text/field_multi_text.php:76
+#: admin/core/inc/fields/slides/field_slides.php:133
+#: admin/core/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:125
+#: admin/core/inc/fields/spacing/field_spacing.php:191
+#: templates/gallery-grid.php:23 templates/gallery-masonry.php:23
+msgid "All"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:138
+#: admin/core/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:145
+#: admin/core/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:152
+#: admin/core/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:159
+#: admin/core/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: admin/core/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: admin/core/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: admin/core/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: admin/core/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: admin/core/inc/fields/dimensions/field_dimensions.php:178
+#: admin/core/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: admin/core/inc/fields/dimensions/field_dimensions.php:189
+#: admin/core/inc/fields/dimensions/field_dimensions.php:190
+#: admin/core/inc/fields/spacing/field_spacing.php:245
+#: admin/core/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: admin/core/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: admin/core/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: admin/core/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: admin/core/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: admin/core/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: admin/core/inc/fields/link_color/field_link_color.php:100
+#: includes/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: admin/core/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: admin/core/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: admin/core/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: admin/core/inc/fields/select/field_select.php:83
+#: admin/core/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: admin/core/inc/fields/select/field_select.php:134
+#: admin/core/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:73
+#: admin/core/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:145
+#: admin/core/inc/fields/slides/field_slides.php:200
+#: admin/options-init.php:762
+msgid "Title"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:149
+#: admin/core/inc/fields/slides/field_slides.php:204
+#: admin/options-init.php:763
+msgid "Description"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:153
+#: admin/core/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:167
+#: admin/core/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: admin/core/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: admin/core/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: admin/core/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:258
+#: admin/core/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:273
+#: admin/core/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:342
+#: admin/core/inc/fields/typography/field_typography.php:343
+#: admin/core/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:365
+#: admin/core/inc/fields/typography/field_typography.php:366
+#: admin/core/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:388
+#: admin/core/inc/fields/typography/field_typography.php:389
+#: admin/core/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:408
+#: admin/core/inc/fields/typography/field_typography.php:409
+#: admin/core/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:432
+#: admin/core/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:441
+#: admin/core/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:450
+#: admin/core/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:459
+#: admin/core/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/core/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: admin/core/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: admin/core/inc/tracking.php:129
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: admin/core/inc/tracking.php:130
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test to ensure "
+"compatibility."
+msgstr ""
+
+#: admin/core/inc/tracking.php:135
+msgid "Allow tracking"
+msgstr ""
+
+#: admin/core/inc/tracking.php:140
+msgid "Do not allow tracking"
+msgstr ""
+
+#: admin/core/inc/tracking.php:151
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: admin/core/inc/tracking.php:152
+msgid "Getting Started"
+msgstr ""
+
+#: admin/core/inc/tracking.php:152
+#, php-format
+msgid ""
+"This panel demonstrates the many features of Redux.  Before digging in, we "
+"suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: admin/core/inc/tracking.php:152
+msgid "our documentation"
+msgstr ""
+
+#: admin/core/inc/tracking.php:153
+msgid "Redux Generator"
+msgstr ""
+
+#: admin/core/inc/tracking.php:153
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized "
+"boilerplate theme or a standalone admin folder complete with all things "
+"Redux (with the help of Underscores and TGM). Save yourself a headache and "
+"try it today."
+msgstr ""
+
+#: admin/core/inc/tracking.php:154 admin/core/inc/welcome/welcome.php:225
+msgid "Redux Extensions"
+msgstr ""
+
+#: admin/core/inc/tracking.php:154
+#, php-format
+msgid ""
+"Did you know we have extensions, which greatly enhance the features of "
+"Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: admin/core/inc/tracking.php:154
+msgid "extensions directory"
+msgstr ""
+
+#: admin/core/inc/tracking.php:155
+msgid "Like Redux?"
+msgstr ""
+
+#: admin/core/inc/tracking.php:155
+#, php-format
+msgid ""
+"If so, please %1$s and consider making a %2$s to keep development of Redux "
+"moving forward."
+msgstr ""
+
+#: admin/core/inc/tracking.php:155
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: admin/core/inc/tracking.php:155
+msgid "donation"
+msgstr ""
+
+#: admin/core/inc/tracking.php:156
+msgid "Newsletter"
+msgstr ""
+
+#: admin/core/inc/tracking.php:156
+msgid ""
+"If you'd like to keep up to with all things Redux, please subscribe to our "
+"newsletter"
+msgstr ""
+
+#: admin/core/inc/tracking.php:157
+msgid "Email address"
+msgstr ""
+
+#: admin/core/inc/tracking.php:157
+msgid "Subscribe"
+msgstr ""
+
+#: admin/core/inc/tracking.php:166
+msgid "Close"
+msgstr ""
+
+#: admin/core/inc/validation/color/validation_color.php:15
+#: admin/core/inc/validation/color_rgba/validation_color_rgba.php:14
+#: admin/core/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: admin/core/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: admin/core/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: admin/core/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: admin/core/inc/validation/email/validation_email.php:16
+#: admin/core/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: admin/core/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: admin/core/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: admin/core/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: admin/core/inc/validation/numeric/validation_numeric.php:16
+#: admin/core/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: admin/core/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: admin/core/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:8
+#: admin/core/inc/welcome/views/changelog.php:10
+#: admin/core/inc/welcome/views/credits.php:10
+#: admin/core/inc/welcome/views/extensions.php:81
+#: admin/core/inc/welcome/views/status_report.php:34
+#: admin/core/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: admin/core/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: admin/core/inc/welcome/views/changelog.php:2
+msgid "Redux Framework - Changelog"
+msgstr ""
+
+#: admin/core/inc/welcome/views/changelog.php:5
+#: admin/core/inc/welcome/views/status_report.php:30
+msgid ""
+"Our core mantra at Redux is backwards compatibility. With hundreds of "
+"thousands of instances worldwide, you can be assured that we will take care "
+"of you and your clients."
+msgstr ""
+
+#: admin/core/inc/welcome/views/credits.php:2
+msgid "Redux Framework - A Community Effort"
+msgstr ""
+
+#: admin/core/inc/welcome/views/credits.php:5
+msgid ""
+"We recognize we are nothing without our community. We would like to thank "
+"all of those who help Redux to be what it is. Thank you for your involvement."
+msgstr ""
+
+#: admin/core/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: admin/core/inc/welcome/views/extensions.php:73
+msgid "Redux Framework - Extensions"
+msgstr ""
+
+#: admin/core/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: admin/core/inc/welcome/views/extensions.php:89
+msgid ""
+"While some are built specificially for developers, extensions such as Custom "
+"Fonts are sure to make any user happy."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:26
+msgid "Redux Framework - System Status"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:43
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:48
+msgid "Get System Report"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:53
+msgid "Understanding the Status Report"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:62
+msgid "Copied!"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:63
+msgid "Copy for Support"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:73
+msgid "WordPress Environment"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:80
+msgid "Home URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:83
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:89
+msgid "Site URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:92
+msgid "The root URL of your site."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:100
+msgid "Redux Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:103
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:111
+msgid "Redux Data Directory Writable"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:114
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:126
+msgid "WP Content URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:129
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:137
+msgid "WP Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:140
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:148
+msgid "WP Multisite"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:151
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:162
+msgid "Permalink Structure"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:165
+msgid ""
+"The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:174
+msgid "Front Page Display"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:176
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:185
+msgid "Front Page"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:188
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:196
+msgid "Posts Page"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:199
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:210
+msgid "WP Memory Limit"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:213
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:229
+msgid "Database Table Prefix"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:232
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:240
+msgid "WP Debug Mode"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:243
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:255
+msgid "Language"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:258
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:270
+msgid "Browser"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:277
+msgid "Browser Info"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:280
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:297
+msgid "Server Environment"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:304
+msgid "Server Info"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:307
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:315
+msgid "Localhost Environment"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:318
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:332
+msgid "PHP Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:335
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:343
+msgid "ABSPATH"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:346
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:355
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:356
+#: admin/core/inc/welcome/views/status_report.php:361
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:360
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:365
+msgid "PHP Time Limit"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:366
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:370
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:371
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:375
+msgid "PHP Display Errors"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:376
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:387
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:388
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:399
+msgid "MySQL Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:400
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:404
+msgid "Max Upload Size"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:405
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:410
+msgid "Default Timezone is UTC"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:412
+msgid "The default timezone for your server."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:428
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:434
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:473
+msgid "Remote Post"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:474
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:479
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:482
+#: admin/core/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:489
+msgid "Remote Get"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:490
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:495
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:531
+msgid "Active Plugins"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:546
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:553
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:572
+msgid "Redux Instance: "
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:579
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:587
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:595
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:600
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:605
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:610
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:615
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:620
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:626
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:631
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:636
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:645
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:650
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:676
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:705
+msgid "Theme"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:710
+msgid "Name"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:711
+msgid "The name of the current active theme."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:715
+#: includes/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:716
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:722
+msgid "is available"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:728
+msgid "Author URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:729
+msgid "The theme developers URL."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:733
+msgid "Child Theme"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:734
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:745
+msgid "Parent Theme Name"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:747
+msgid "The name of the parent theme."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:752
+msgid "Parent Theme Version"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:754
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:759
+msgid "Parent Theme Author URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/status_report.php:761
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:2
+msgid "Redux Framework - Support"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:4
+msgid ""
+"We are an open source project used by developers to make powerful control "
+"panels."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:19
+#: admin/core/inc/welcome/views/support.php:40
+msgid "Generate a Support URL"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:20
+msgid "Select Support Type"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:21
+#: admin/core/inc/welcome/views/support.php:87
+msgid "How to Get Support"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:27
+msgid "Submit a Support Request"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:31
+msgid "To get started, we will need to generate a support hash."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:52
+msgid "Select Your Support Type"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:56
+msgid "What type of user are you?"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:63
+msgid "User"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:65
+msgid "I am a user, using a pre-built product."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:70
+msgid "Developer"
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:72
+msgid "I am a developer, building a product using Redux."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:92
+msgid ""
+"Please proceed to the Redux Framework issue tracker and supply us with your "
+"support URL below. Please also provide any information that will help us to "
+"reproduce your issue."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:101
+msgid ""
+"Listed below are the Wordpress plugins and/or theme installed on your site "
+"that utilize Redux Framework. We do not directly support products created "
+"with our framework.  It is the responsibility of the plugin or theme "
+"developer to support their work. You will need to contact the author(s) of "
+"the products listed below with your support questions."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:105
+msgid ""
+"Please be sure to include for your developer - via cut and paste - the "
+"Support URL in the box below."
+msgstr ""
+
+#: admin/core/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:104
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:179
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:201
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:201
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:209
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:217
+msgid "Get Support"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:234
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:242
+msgid "Redux Framework Status"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:342
+msgid "What's New"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:345
+msgid "Extensions"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:348
+msgid "Changelog"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:351
+msgid "Credits"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:354
+msgid "Support"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:357
+#: includes/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: admin/core/inc/welcome/welcome.php:514
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: admin/core/templates/panel/footer.tpl.php:57
+#: admin/core/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: admin/core/templates/panel/footer.tpl.php:61
+#: admin/core/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: admin/core/templates/panel/footer.tpl.php:62
+#: admin/core/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: admin/core/templates/panel/footer.tpl.php:67
+#: admin/core/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:11
+#: admin/core/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: admin/core/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: admin/core/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: admin/options-init.php:27 admin/options-init.php:28
+msgid "Pinar Theme Options"
+msgstr ""
+
+#: admin/options-init.php:131
+msgid "Main Settings"
+msgstr ""
+
+#: admin/options-init.php:132
+msgid "Main setting of Pinar theme is"
+msgstr ""
+
+#: admin/options-init.php:139
+msgid "Preset Colors"
+msgstr ""
+
+#: admin/options-init.php:140
+msgid "Select the default preset color for the theme."
+msgstr ""
+
+#: admin/options-init.php:142
+msgid "Preset 1"
+msgstr ""
+
+#: admin/options-init.php:143
+msgid "Preset 2"
+msgstr ""
+
+#: admin/options-init.php:144
+msgid "Preset 3"
+msgstr ""
+
+#: admin/options-init.php:145
+msgid "Preset 4"
+msgstr ""
+
+#: admin/options-init.php:146
+msgid "Preset 5"
+msgstr ""
+
+#: admin/options-init.php:147
+msgid "Preset 6"
+msgstr ""
+
+#: admin/options-init.php:148
+msgid "Preset 7"
+msgstr ""
+
+#: admin/options-init.php:149
+msgid "Preset 8"
+msgstr ""
+
+#: admin/options-init.php:156
+msgid "Main Layout"
+msgstr ""
+
+#: admin/options-init.php:157
+msgid "Select the default layout of the theme."
+msgstr ""
+
+#: admin/options-init.php:159 widgets/ravis-demo-styler.php:41
+msgid "Wide"
+msgstr ""
+
+#: admin/options-init.php:160 widgets/ravis-demo-styler.php:42
+msgid "Boxed"
+msgstr ""
+
+#: admin/options-init.php:167 widgets/ravis-demo-styler.php:47
+msgid "Background Pattern"
+msgstr ""
+
+#: admin/options-init.php:168
+msgid ""
+"Select the background pattern. Note: it will be shown JUST in \"Boxed\" "
+"layout."
+msgstr ""
+
+#: admin/options-init.php:170
+msgid "Pattern 1"
+msgstr ""
+
+#: admin/options-init.php:171
+msgid "Pattern 2"
+msgstr ""
+
+#: admin/options-init.php:172
+msgid "Pattern 3"
+msgstr ""
+
+#: admin/options-init.php:173
+msgid "Pattern 4"
+msgstr ""
+
+#: admin/options-init.php:174
+msgid "Pattern 5"
+msgstr ""
+
+#: admin/options-init.php:175
+msgid "Pattern 6"
+msgstr ""
+
+#: admin/options-init.php:176
+msgid "Pattern 7"
+msgstr ""
+
+#: admin/options-init.php:177
+msgid "Pattern 8"
+msgstr ""
+
+#: admin/options-init.php:178
+msgid "Pattern 9"
+msgstr ""
+
+#: admin/options-init.php:179
+msgid "Pattern 10"
+msgstr ""
+
+#: admin/options-init.php:180
+msgid "Pattern 11"
+msgstr ""
+
+#: admin/options-init.php:181
+msgid "Pattern 12"
+msgstr ""
+
+#: admin/options-init.php:188
+msgid "Hotel Name"
+msgstr ""
+
+#: admin/options-init.php:189
+msgid ""
+"This name will be replaced with the \"Pinar\" in the top logo of website."
+msgstr ""
+
+#: admin/options-init.php:190
+msgid "Please add one word like \"Pinar\", \"Hilton\", \"Armani\" and etc."
+msgstr ""
+
+#: admin/options-init.php:196
+msgid "Hotel Stars"
+msgstr ""
+
+#: admin/options-init.php:197
+msgid "Select how many stars your hotel has."
+msgstr ""
+
+#: admin/options-init.php:211
+msgid "Your Logo"
+msgstr ""
+
+#: admin/options-init.php:212
+msgid ""
+"Please provide \".png\" or \".jpg\" format of your logo and upload suitable "
+"size of it. Leave it blank if you want to use the default format of "
+"template's logo"
+msgstr ""
+
+#: admin/options-init.php:213
+msgid ""
+"Upload your Hotel's Logo. It will be replaced with the default logo of "
+"template."
+msgstr ""
+
+#: admin/options-init.php:218
+msgid "Footer Text"
+msgstr ""
+
+#: admin/options-init.php:219
+msgid "Putt the text you want to be shown in footer in this field."
+msgstr ""
+
+#: admin/options-init.php:220 admin/options-init.php:645
+#: admin/options-init.php:653 admin/options-init.php:733
+msgid "Do not use HTML tags."
+msgstr ""
+
+#: admin/options-init.php:222
+msgid "© 2014 Pinar. All Rights Reserved."
+msgstr ""
+
+#: admin/options-init.php:227
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/options-init.php:228
+msgid "Enable / Disable the sticky header in all pages."
+msgstr ""
+
+#: admin/options-init.php:234
+msgid "Transparent Header"
+msgstr ""
+
+#: admin/options-init.php:235
+msgid "Enable / Disable the transparency of header in all pages."
+msgstr ""
+
+#: admin/options-init.php:241
+msgid "Default Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:242 admin/options-init.php:361
+#: admin/options-init.php:521 admin/options-init.php:527
+#: admin/options-init.php:533 admin/options-init.php:539
+msgid ""
+"Please provide \".png\" or \".jpg\" format as background of breadcrumb in "
+"all pages."
+msgstr ""
+
+#: admin/options-init.php:247
+msgid "Include Pages in search result"
+msgstr ""
+
+#: admin/options-init.php:248
+msgid ""
+"By enabling or disabling this option you can include/exclude the pages from "
+"the search result"
+msgstr ""
+
+#: admin/options-init.php:254
+msgid "Enable Smooth Scrolling"
+msgstr ""
+
+#: admin/options-init.php:255
+msgid "Enable/Disable smooth scrolling on your website."
+msgstr ""
+
+#: admin/options-init.php:261
+msgid "CSS Code"
+msgstr ""
+
+#: admin/options-init.php:262
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: admin/options-init.php:265
+msgid "These codes will be added to all pages before </head>"
+msgstr ""
+
+#: admin/options-init.php:271
+msgid "Contact Information"
+msgstr ""
+
+#: admin/options-init.php:272
+msgid "Manage the contact information of Hotel"
+msgstr ""
+
+#: admin/options-init.php:279
+msgid "Contact page text"
+msgstr ""
+
+#: admin/options-init.php:280
+msgid "This text will be shown in the contact page ( above all the text )"
+msgstr ""
+
+#: admin/options-init.php:285 functions/booking-form-funcs.php:133
+msgid "Address"
+msgstr ""
+
+#: admin/options-init.php:286
+msgid "Put the address of Hotel in this field"
+msgstr ""
+
+#: admin/options-init.php:291 widgets/ravis-news-letter.php:36
+msgid "Email"
+msgstr ""
+
+#: admin/options-init.php:292
+msgid "Put the email of the hotel in this field."
+msgstr ""
+
+#: admin/options-init.php:300
+msgid "Phone"
+msgstr ""
+
+#: admin/options-init.php:301
+msgid "Add the phone number of your hotel."
+msgstr ""
+
+#: admin/options-init.php:306
+msgid "Map Marker"
+msgstr ""
+
+#: admin/options-init.php:307
+msgid "Please provide \".png\" format for showing your location on Map."
+msgstr ""
+
+#: admin/options-init.php:312
+msgid "Location Latitude"
+msgstr ""
+
+#: admin/options-init.php:313 admin/options-init.php:320
+msgid "Add the latitude of your website in this field."
+msgstr ""
+
+#: admin/options-init.php:319
+msgid "Location Longitude"
+msgstr ""
+
+#: admin/options-init.php:327
+msgid "Blog Setting"
+msgstr ""
+
+#: admin/options-init.php:328
+msgid "Manage the setting of Blog page."
+msgstr ""
+
+#: admin/options-init.php:335
+msgid "Excerpt Or Full Blog Content"
+msgstr ""
+
+#: admin/options-init.php:336
+msgid "Show excerpt or Full Blog Content On Blog Pages."
+msgstr ""
+
+#: admin/options-init.php:338
+msgid "Excerpt"
+msgstr ""
+
+#: admin/options-init.php:339
+msgid "Full"
+msgstr ""
+
+#: admin/options-init.php:346
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/options-init.php:347
+msgid "Set how many character do you want to show in excerpts."
+msgstr ""
+
+#: admin/options-init.php:353
+msgid "Read More Text"
+msgstr ""
+
+#: admin/options-init.php:354
+msgid "Change the \"Read More\" text of Post archive."
+msgstr ""
+
+#: admin/options-init.php:355 index.php:53
+msgid "Continue Reading ..."
+msgstr ""
+
+#: admin/options-init.php:360
+msgid "Blog Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:367
+msgid "Typography"
+msgstr ""
+
+#: admin/options-init.php:368
+msgid "Customize font of all section of theme"
+msgstr ""
+
+#: admin/options-init.php:374
+msgid "Main Font and Color"
+msgstr ""
+
+#: admin/options-init.php:381
+msgid "Setting of the main font of the theme."
+msgstr ""
+
+#: admin/options-init.php:386
+msgid "Latin Extended Support"
+msgstr ""
+
+#: admin/options-init.php:387
+msgid "Enable / Disable Latin Extended support for the Google fonts"
+msgstr ""
+
+#: admin/options-init.php:393
+msgid "Cyrillic Extended Support"
+msgstr ""
+
+#: admin/options-init.php:394
+msgid "Enable / Disable Cyrillic Extended support for the Google fonts"
+msgstr ""
+
+#: admin/options-init.php:402
+msgid "Social Icons"
+msgstr ""
+
+#: admin/options-init.php:403
+msgid ""
+"Manage the hotel social links. The empty field will not be shown in frontend."
+msgstr ""
+
+#: admin/options-init.php:409
+msgid "Twitter"
+msgstr ""
+
+#: admin/options-init.php:410
+msgid "Add twitter google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:415
+msgid "Facebook"
+msgstr ""
+
+#: admin/options-init.php:416
+msgid "Add the facebook plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:421
+msgid "Google Plus"
+msgstr ""
+
+#: admin/options-init.php:422
+msgid "Add gplus google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:427
+msgid "Flickr"
+msgstr ""
+
+#: admin/options-init.php:428
+msgid "Add flickr google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:433
+msgid "Vimeo"
+msgstr ""
+
+#: admin/options-init.php:434
+msgid "Add vimeo google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:439
+msgid "Youtube"
+msgstr ""
+
+#: admin/options-init.php:440
+msgid "Add youtube google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:445
+msgid "Pinterest"
+msgstr ""
+
+#: admin/options-init.php:446
+msgid "Add the pinterest plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:451
+msgid "Tumblr"
+msgstr ""
+
+#: admin/options-init.php:452
+msgid "Add tumblr google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:457
+msgid "Dribbble"
+msgstr ""
+
+#: admin/options-init.php:458
+msgid "Add the dribbble plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:463
+msgid "Digg"
+msgstr ""
+
+#: admin/options-init.php:464
+msgid "Add digg google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:469
+msgid "Linkedin"
+msgstr ""
+
+#: admin/options-init.php:470
+msgid "Add the linkedin plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:475
+msgid "Blogger"
+msgstr ""
+
+#: admin/options-init.php:476
+msgid "Add blogger google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:481
+msgid "Skype"
+msgstr ""
+
+#: admin/options-init.php:482
+msgid "Add skype google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:487
+msgid "Forrst"
+msgstr ""
+
+#: admin/options-init.php:488
+msgid "Add forrst google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:493
+msgid "Deviantart"
+msgstr ""
+
+#: admin/options-init.php:494
+msgid "Add the deviantart plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:499
+msgid "Yahoo"
+msgstr ""
+
+#: admin/options-init.php:500
+msgid "Add yahoo google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:505
+msgid "Reddit"
+msgstr ""
+
+#: admin/options-init.php:506
+msgid "Add reddit google plus link in this field."
+msgstr ""
+
+#: admin/options-init.php:513
+msgid "Breadcrumb Setting"
+msgstr ""
+
+#: admin/options-init.php:514
+msgid ""
+"Manage the image background of breadcrumb in some special pages. These "
+"images will be overridden the default background image."
+msgstr ""
+
+#: admin/options-init.php:520
+msgid "Guest Book Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:526
+msgid "Room Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:532
+msgid "Gallery Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:538
+msgid "404 Breadcrumb Background"
+msgstr ""
+
+#: admin/options-init.php:546 functions/essential-pages.php:16
+msgid "Gallery"
+msgstr ""
+
+#: admin/options-init.php:547
+msgid ""
+"Manage the images which is shown in the Gallery pages and the Gallery "
+"shortcode"
+msgstr ""
+
+#: admin/options-init.php:553
+msgid "Default Gallery Layout"
+msgstr ""
+
+#: admin/options-init.php:554
+msgid ""
+"Select the default layout of your Gallery, the \"More ...\" url of shortcode "
+"gallery will be generated based in this field."
+msgstr ""
+
+#: admin/options-init.php:566
+msgid "Sort Options"
+msgstr ""
+
+#: admin/options-init.php:567
+msgid ""
+"Add the sort option and separate them with \",\" like \"<b>All,Bars,Pools</b>"
+"\""
+msgstr ""
+
+#: admin/options-init.php:573
+msgid "Manage The Main Gallery"
+msgstr ""
+
+#: admin/options-init.php:574
+msgid ""
+"Manage the image you want to show in Gallery Pages and Gallery shortcode."
+msgstr ""
+
+#: admin/options-init.php:579
+msgid "Manage The Image of Fullscreen Gallery"
+msgstr ""
+
+#: admin/options-init.php:580
+msgid "Manage the image you want to show in Fullscreen gallery page."
+msgstr ""
+
+#: admin/options-init.php:587
+msgid "Booking Setting"
+msgstr ""
+
+#: admin/options-init.php:588
+msgid "Manage some setting of Booking Page of template"
+msgstr ""
+
+#: admin/options-init.php:594
+msgid "Booking Currency"
+msgstr ""
+
+#: admin/options-init.php:595
+msgid "Select the currency of website."
+msgstr ""
+
+#: admin/options-init.php:596
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: admin/options-init.php:636
+msgid "Booking Title"
+msgstr ""
+
+#: admin/options-init.php:637
+msgid "Add the title of Booking Section"
+msgstr ""
+
+#: admin/options-init.php:643
+msgid "Booking Description"
+msgstr ""
+
+#: admin/options-init.php:644
+msgid "Add the text you want to be shown in the booking page."
+msgstr ""
+
+#: admin/options-init.php:651
+msgid "Booking Complete Text"
+msgstr ""
+
+#: admin/options-init.php:652
+msgid ""
+"Putt the text you want to be shown in last steps of booking in this field."
+msgstr ""
+
+#: admin/options-init.php:655
+msgid "For more information you can contact us via contact form of website!"
+msgstr ""
+
+#: admin/options-init.php:660
+msgid "Email Notification"
+msgstr ""
+
+#: admin/options-init.php:661
+msgid "Enable / Disable email notification system of booking process"
+msgstr ""
+
+#: admin/options-init.php:667
+msgid "Email Sender"
+msgstr ""
+
+#: admin/options-init.php:668
+msgid "Add an email that you want all email will be sent by it."
+msgstr ""
+
+#: admin/options-init.php:669
+msgid ""
+"Please create an email in your host and add it here. Example : "
+"\"noreply@example.com\""
+msgstr ""
+
+#: admin/options-init.php:675
+msgid "Email Receiver"
+msgstr ""
+
+#: admin/options-init.php:676
+msgid "Add the emails you want to receive the notifications."
+msgstr ""
+
+#: admin/options-init.php:682
+msgid "Email template of admins"
+msgstr ""
+
+#: admin/options-init.php:683
+msgid ""
+"This template will be used for emails which will be sent for admin of "
+"website."
+msgstr ""
+
+#: admin/options-init.php:684
+msgid ""
+"For putting the booking url with the text please use this shortcode in the "
+"above editor.[user-booking-url]YOUR TEXT[/user-booking-url], here is the "
+"list of shortcode that you can use in this field : [guest-first-name], "
+"[guest-last-name], [guest-email], [guest-tel], [guest-city], [guest-"
+"address], [guest-special-requirement], [guest-check-in], [guest-check-out], "
+"[guest-adult], [guest-child], [guest-room-list], [guest-booking-total-price]"
+msgstr ""
+
+#: admin/options-init.php:685
+msgid ""
+"Please check the new booking information and confirmed it if it was OK, here "
+"is the edit link : [user-booking-url]link[/user-booking-url]"
+msgstr ""
+
+#: admin/options-init.php:691
+msgid "Email template of users"
+msgstr ""
+
+#: admin/options-init.php:692
+msgid "This template will be used for users who booked on your website."
+msgstr ""
+
+#: admin/options-init.php:693
+msgid ""
+"For using the booking ID in your message, please use this shortcode( [user-"
+"booking-id] ). Also you can use [guest-name] and [guest-family-name] in your "
+"message"
+msgstr ""
+
+#: admin/options-init.php:694
+msgid ""
+"Congratulations, [guest-name] [guest-family-name],<br> Your booking "
+"information with the ID of [user-booking-id] is confirmed now and we are "
+"glad to be your host in our Hotel."
+msgstr ""
+
+#: admin/options-init.php:701
+msgid "Restaurant"
+msgstr ""
+
+#: admin/options-init.php:702
+msgid "Manage the restaurant setting of hotel"
+msgstr ""
+
+#: admin/options-init.php:707
+msgid "Welcome Section"
+msgstr ""
+
+#: admin/options-init.php:713
+msgid "Welcome Title"
+msgstr ""
+
+#: admin/options-init.php:714
+msgid "Add the title of Welcome section of Restaurant"
+msgstr ""
+
+#: admin/options-init.php:719
+msgid "Welcome Subtitle"
+msgstr ""
+
+#: admin/options-init.php:720
+msgid ""
+"Add some text as subtitle of Welcome section of Restaurant. Leave it blank "
+"if you don't want to have subtitle"
+msgstr ""
+
+#: admin/options-init.php:725
+msgid "Welcome Banner"
+msgstr ""
+
+#: admin/options-init.php:726
+msgid "Upload an image as a welcome banner."
+msgstr ""
+
+#: admin/options-init.php:731
+msgid "Welcome Text"
+msgstr ""
+
+#: admin/options-init.php:732
+msgid "Add some text as welcome text."
+msgstr ""
+
+#: admin/options-init.php:739
+msgid "Welcome text author"
+msgstr ""
+
+#: admin/options-init.php:740
+msgid "Add the author of welcome text like \"John Doe - Kitchen Lead\""
+msgstr ""
+
+#: admin/options-init.php:747 admin/options-init.php:759
+msgid "Special Dishes"
+msgstr ""
+
+#: admin/options-init.php:753
+msgid "Special Dishes Title"
+msgstr ""
+
+#: admin/options-init.php:754
+msgid "Add the title of Special Dishes section of Restaurant"
+msgstr ""
+
+#: admin/options-init.php:760
+msgid "Add Special Dishes details in every slides."
+msgstr ""
+
+#: admin/options-init.php:764
+msgid "Price"
+msgstr ""
+
+#: admin/options-init.php:772
+msgid "Promo Section"
+msgstr ""
+
+#: admin/options-init.php:778
+msgid "Background"
+msgstr ""
+
+#: admin/options-init.php:779 admin/options-init.php:869
+msgid "Upload an image as background."
+msgstr ""
+
+#: admin/options-init.php:784
+msgid "Promo Title"
+msgstr ""
+
+#: admin/options-init.php:785
+msgid "Add some text as Title of Promo section of Restaurant."
+msgstr ""
+
+#: admin/options-init.php:790
+msgid "Promo Subtitle"
+msgstr ""
+
+#: admin/options-init.php:791
+msgid ""
+"Add some text as subtitle of Promo section of Restaurant. Leave it blank if "
+"you don't want to have subtitle"
+msgstr ""
+
+#: admin/options-init.php:798
+msgid "Menu"
+msgstr ""
+
+#: admin/options-init.php:804
+msgid "Menu Title"
+msgstr ""
+
+#: admin/options-init.php:805
+msgid "Add some text as Title of Menu section of Restaurant."
+msgstr ""
+
+#: admin/options-init.php:810
+msgid "Menu Subtitle"
+msgstr ""
+
+#: admin/options-init.php:811
+msgid ""
+"Add some text as subtitle of Menu section of Restaurant. Leave it blank if "
+"you don't want to have subtitle"
+msgstr ""
+
+#: admin/options-init.php:816
+msgid "Breakfast Chef Selection"
+msgstr ""
+
+#: admin/options-init.php:817 admin/options-init.php:829
+#: admin/options-init.php:841
+msgid "Add the title of food which is selected as \"Chef Selection\""
+msgstr ""
+
+#: admin/options-init.php:822
+msgid "Breakfast Menu"
+msgstr ""
+
+#: admin/options-init.php:823 admin/options-init.php:835
+#: admin/options-init.php:847
+msgid ""
+"Separate the title and price with \"---\" for example \"<b>Crab With Curry "
+"Sources---14.10</b>\""
+msgstr ""
+
+#: admin/options-init.php:828
+msgid "Lunch Chef Selection"
+msgstr ""
+
+#: admin/options-init.php:834
+msgid "Lunch Menu"
+msgstr ""
+
+#: admin/options-init.php:840
+msgid "Dinner Chef Selection"
+msgstr ""
+
+#: admin/options-init.php:846
+msgid "Dinner Menu"
+msgstr ""
+
+#: admin/options-init.php:854
+msgid "Sliders"
+msgstr ""
+
+#: admin/options-init.php:855
+msgid ""
+"Manage the slider images which is generated by [pinar-main-slider] shortcode"
+msgstr ""
+
+#: admin/options-init.php:861
+msgid "Manage The Main Slider"
+msgstr ""
+
+#: admin/options-init.php:862
+msgid ""
+"Create a new Slider by selecting existing or uploading new images using the "
+"WordPress native uploader."
+msgstr ""
+
+#: admin/options-init.php:867
+msgid "Background of Text Slider"
+msgstr ""
+
+#: admin/options-init.php:868
+msgid ""
+"If you use the \"Home Page Alt\" as your your home page page template, you "
+"can upload your background image of text slider by this field."
+msgstr ""
+
+#: admin/options-init.php:874
+msgid "Text Slider Items"
+msgstr ""
+
+#: admin/options-init.php:875
+msgid ""
+"Add your text you want to show in text slider in \"Home Page Alt\" page "
+"template."
+msgstr ""
+
+#: admin/options-init.php:883
+msgid "Price Setting"
+msgstr ""
+
+#: admin/options-init.php:884
+msgid "You can set your seasonal price for your rooms in this section."
+msgstr ""
+
+#: admin/options-init.php:890
+msgid "High Season Start Date"
+msgstr ""
+
+#: admin/options-init.php:891
+msgid "Insert the start date of your High Season. Date format \"mm-dd-yy\"."
+msgstr ""
+
+#: admin/options-init.php:896
+msgid "High Season End Date"
+msgstr ""
+
+#: admin/options-init.php:897
+msgid "Insert the end date of your High Season. Date format \"mm-dd-yy\"."
+msgstr ""
+
+#: admin/options-init.php:902
+msgid "High Season Percent"
+msgstr ""
+
+#: admin/options-init.php:903
+msgid "Add the percent (%) you want to increase the prices in High Season."
+msgstr ""
+
+#: admin/options-init.php:904 admin/options-init.php:923
+msgid "Do NOT use \"%\" in the field, just add the digit."
+msgstr ""
+
+#: admin/options-init.php:909
+msgid "Low Season Start Date"
+msgstr ""
+
+#: admin/options-init.php:910
+msgid "Insert the start date of your Low Season. Date format \"mm-dd-yy\"."
+msgstr ""
+
+#: admin/options-init.php:915
+msgid "Low Season End Date"
+msgstr ""
+
+#: admin/options-init.php:916
+msgid "Insert the end date of your Low Season. Date format \"mm-dd-yy\"."
+msgstr ""
+
+#: admin/options-init.php:921
+msgid "Low Season Percent"
+msgstr ""
+
+#: admin/options-init.php:922
+msgid "Add the percent (%) you want to increase the prices in Low Season."
+msgstr ""
+
+#: archive-rooms.php:30 functions/booking-form-funcs.php:609
+#: taxonomy-room-category.php:52 templates/home-page-fullscreen.php:35
+#: templates/room-grid-sidebar.php:44 templates/room-masonry.php:41
+#: templates/rooms-list.php:77
+msgid "No Image"
+msgstr ""
+
+#: archive-rooms.php:33 functions/booking-form-funcs.php:613
+#: taxonomy-room-category.php:55 templates/room-grid-sidebar.php:47
+#: templates/room-masonry.php:44 templates/rooms-list.php:81
+msgid "More Details"
+msgstr ""
+
+#: archive-rooms.php:40 functions/booking-form-funcs.php:620
+#: taxonomy-room-category.php:62 templates/room-grid-sidebar.php:54
+#: templates/room-masonry.php:51 templates/rooms-list.php:93
+msgid "- Per Night"
+msgstr ""
+
+#: archive-rooms.php:49 taxonomy-room-category.php:71
+#: templates/room-grid-sidebar.php:63 templates/room-masonry.php:60
+#: templates/rooms-list.php:102
+msgid "There is not any rooms!"
+msgstr ""
+
+#: comments.php:33
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:111
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:253
+msgid "Main Widget area"
+msgstr ""
+
+#: functions.php:255
+msgid "Appears to the right side of the blog page."
+msgstr ""
+
+#: functions.php:262
+msgid "Top Footer Widget area"
+msgstr ""
+
+#: functions.php:264
+msgid "Appears in top of the website footer."
+msgstr ""
+
+#: functions.php:286
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:287
+msgid "Footer Menu"
+msgstr ""
+
+#: functions/booking-confrim-notification.php:21
+msgid "Your Booking is confirmed. Booking ID is : "
+msgstr ""
+
+#: functions/booking-form-funcs.php:63 functions/booking-form-funcs.php:366
+msgid "Reservation Summary"
+msgstr ""
+
+#: functions/booking-form-funcs.php:65 functions/booking-form-funcs.php:115
+#: functions/booking-form-funcs.php:368 functions/booking-form-funcs.php:398
+msgid "Reservation Info"
+msgstr ""
+
+#: functions/booking-form-funcs.php:68 functions/booking-form-funcs.php:371
+msgid "Check in :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:72 functions/booking-form-funcs.php:375
+msgid "Check out :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:76 functions/booking-form-funcs.php:379
+#: templates/booking.php:88
+msgid "Adult :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:80 functions/booking-form-funcs.php:383
+msgid "Child :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:84 functions/booking-form-funcs.php:387
+msgid "Room Info"
+msgstr ""
+
+#: functions/booking-form-funcs.php:101 functions/booking-form-funcs.php:351
+msgid "Extra Packages"
+msgstr ""
+
+#: functions/booking-form-funcs.php:109 functions/booking-form-funcs.php:392
+msgid "Total Cost :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:118
+msgid "First Name *"
+msgstr ""
+
+#: functions/booking-form-funcs.php:121
+msgid "Last Name *"
+msgstr ""
+
+#: functions/booking-form-funcs.php:124
+msgid "Email *"
+msgstr ""
+
+#: functions/booking-form-funcs.php:127
+msgid "Phone *"
+msgstr ""
+
+#: functions/booking-form-funcs.php:130
+msgid "City"
+msgstr ""
+
+#: functions/booking-form-funcs.php:138
+msgid "Special Requirements"
+msgstr ""
+
+#: functions/booking-form-funcs.php:141
+msgid "Enter the Code *"
+msgstr ""
+
+#: functions/booking-form-funcs.php:145
+msgid "Submit"
+msgstr ""
+
+#: functions/booking-form-funcs.php:178
+msgid "Please fill required "
+msgstr ""
+
+#: functions/booking-form-funcs.php:181 templates/maintenance.php:44
+#: widgets/ravis-news-letter.php:59
+msgid "Please add a valid email"
+msgstr ""
+
+#: functions/booking-form-funcs.php:360
+msgid "Reservation Complete!"
+msgstr ""
+
+#: functions/booking-form-funcs.php:402
+msgid "First Name :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:406
+msgid "Last Name :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:410
+msgid "Email :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:414
+msgid "Phone :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:418
+msgid "City :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:422
+msgid "Address :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:430
+msgid "Special Requirements :"
+msgstr ""
+
+#: functions/booking-form-funcs.php:461
+msgid "New Booking Information was  in your website. Booking ID : "
+msgstr ""
+
+#: functions/booking-form-funcs.php:481
+msgid "Wrong Security code, please try again!"
+msgstr ""
+
+#: functions/booking-form-funcs.php:603
+msgid "Select This <b>Room</b>"
+msgstr ""
+
+#: functions/booking-form-funcs.php:628
+msgid "No Rooms Available for your criteria."
+msgstr ""
+
+#: functions/booking-form-funcs.php:628
+msgid "Please try other dates."
+msgstr ""
+
+#: functions/booking-form-funcs.php:646
+msgid "Confirm the room"
+msgstr ""
+
+#: functions/booking-form-funcs.php:671
+msgid "Please choose at least one room."
+msgstr ""
+
+#: functions/check-availability.php:26
+msgid "Count of guests are more than the room's capacity."
+msgstr ""
+
+#: functions/check-availability.php:101 functions/check-availability.php:107
+msgid "This room is NOT available."
+msgstr ""
+
+#: functions/essential-pages.php:10
+msgid "Booking"
+msgstr ""
+
+#: functions/get-booking-info.php:34
+msgid "Booking ID"
+msgstr ""
+
+#: functions/google-font-enqueue.php:13
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions/include-plugins.php:63
+#: includes/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/include-plugins.php:64
+#: includes/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/include-plugins.php:65
+#: includes/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/include-plugins.php:66
+#: includes/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/include-plugins.php:67
+#: includes/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:68
+#: includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:69
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:70
+#: includes/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:71
+#: includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:72
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:73
+#: includes/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:74
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:75
+#: includes/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:76
+#: includes/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/include-plugins.php:77
+#: includes/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/include-plugins.php:78
+#: includes/class-tgm-plugin-activation.php:399
+#: includes/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/include-plugins.php:79
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/insert-testimonials.php:31
+msgid "Your feedback will be listed after confirmation."
+msgstr ""
+
+#: functions/insert-testimonials.php:37
+msgid "Please refresh the page and fill all required fields."
+msgstr ""
+
+#: functions/notifier-emails.php:30 widgets/ravis-news-letter.php:149
+msgid "You have already subscribed."
+msgstr ""
+
+#: functions/notifier-emails.php:43 widgets/ravis-news-letter.php:162
+msgid "Thanks for your subscription."
+msgstr ""
+
+#: functions/notifier-emails.php:57 widgets/ravis-news-letter.php:176
+msgid "Email was not added!"
+msgstr ""
+
+#: functions/notifier-emails.php:63 widgets/ravis-news-letter.php:182
+msgid "Please add a valid email format"
+msgstr ""
+
+#: functions/post-meta.php:30
+msgid "By"
+msgstr ""
+
+#: functions/post-meta.php:39
+msgid "Leave a comment"
+msgstr ""
+
+#: functions/post-meta.php:39 page.php:26 single.php:81
+msgid "1 Comment"
+msgstr ""
+
+#: functions/post-meta.php:39 page.php:26 single.php:81
+msgid "% Comments"
+msgstr ""
+
+#: functions/post-type-in-menu.php:8
+msgid "Pinar Post Archives"
+msgstr ""
+
+#: functions/post-type-in-menu.php:65
+msgid "Add to Menu"
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:7
+msgid "Home"
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:8
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:9
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:10
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:11
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:12
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:13
+msgid "Error 404"
+msgstr ""
+
+#: functions/ravis-breadcrumb.php:183
+msgid "Page"
+msgstr ""
+
+#: header.php:76
+msgid "English"
+msgstr ""
+
+#: header.php:77
+msgid "Arabic"
+msgstr ""
+
+#: header.php:103
+msgid "Hotel"
+msgstr ""
+
+#: header.php:115
+msgid "Book Now"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:400
+#: includes/class-tgm-plugin-activation.php:2837
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:833
+#: includes/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:940
+#: includes/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1121
+#: includes/class-tgm-plugin-activation.php:2833
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1886
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2240
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2285
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2288
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2291
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2294
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2376
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2496
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2505
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2617 wp-activate.php:80
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3375
+#: includes/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3375
+#: includes/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: index.php:85
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: index.php:86
+msgid "Please try again with some different keywords."
+msgstr ""
+
+#: page.php:35 single.php:89
+msgid "Leave a Message"
+msgstr ""
+
+#: page.php:36 single.php:90
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: page.php:37 single.php:91
+msgid "Cancel"
+msgstr ""
+
+#: page.php:43 single.php:97
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to share your review."
+msgstr ""
+
+#: single-rooms.php:31 templates/rooms-list.php:56
+#, php-format
+msgid "Max %s people"
+msgstr ""
+
+#: single-rooms.php:35 templates/rooms-list.php:60
+#, php-format
+msgid "Room Size : %s sqf"
+msgstr ""
+
+#: single-rooms.php:39 templates/rooms-list.php:64
+#, php-format
+msgid "View: %s"
+msgstr ""
+
+#: single-rooms.php:63
+msgid "Per Night"
+msgstr ""
+
+#: templates/booking.php:40
+msgid "Choose Date"
+msgstr ""
+
+#: templates/booking.php:45
+msgid "Choose Room"
+msgstr ""
+
+#: templates/booking.php:50
+msgid "Reservation"
+msgstr ""
+
+#: templates/booking.php:55
+msgid "Confirmation"
+msgstr ""
+
+#: templates/booking.php:75
+msgid "Check in"
+msgstr ""
+
+#: templates/booking.php:79
+msgid "Check out"
+msgstr ""
+
+#: templates/booking.php:85
+msgid "Other details"
+msgstr ""
+
+#: templates/booking.php:94
+msgid "Children :"
+msgstr ""
+
+#: templates/booking.php:100
+msgid "Check Availability"
+msgstr ""
+
+#: templates/booking.php:127
+msgid "Please fill both Check in and Check out dates"
+msgstr ""
+
+#: templates/booking.php:131
+msgid "Please change the dates to cover at-least a night"
+msgstr ""
+
+#: templates/booking.php:135
+msgid "Please add how many guest we have!"
+msgstr ""
+
+#: templates/booking.php:160
+msgid "Sorry, but we don't have any room available"
+msgstr ""
+
+#: templates/contact-alt.php:36 templates/contact.php:33
+msgid "How to contact"
+msgstr ""
+
+#: templates/gallery-grid.php:16 templates/gallery-masonry.php:16
+msgid "Filters"
+msgstr ""
+
+#: templates/home-page-fullscreen.php:43
+msgid "There is not any slides"
+msgstr ""
+
+#: templates/maintenance.php:13
+msgid "Coming Soon"
+msgstr ""
+
+#: templates/maintenance.php:15
+msgid "We're currently working on creating something fantastic. "
+msgstr ""
+
+#: templates/maintenance.php:17
+msgid "We'll be here soon, subscribe to be notified."
+msgstr ""
+
+#: templates/maintenance.php:23
+msgid "Enter your email ..."
+msgstr ""
+
+#: templates/maintenance.php:24
+msgid "Notify Me"
+msgstr ""
+
+#: templates/restaurant.php:127
+msgid "Breakfast"
+msgstr ""
+
+#: templates/restaurant.php:131 templates/restaurant.php:156
+#: templates/restaurant.php:182
+msgid "Chef Selection"
+msgstr ""
+
+#: templates/restaurant.php:152
+msgid "Lunch"
+msgstr ""
+
+#: templates/restaurant.php:178
+msgid "Dinner"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:18
+msgid "Ravis Demo Slider"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:19
+msgid "Change the style of Demo."
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:38
+msgid "Layout"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:66
+msgid "Preset Color"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:84
+msgid "Booking Form Style"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:87
+msgid "Default Style"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:88
+msgid "Circle Style"
+msgstr ""
+
+#: widgets/ravis-demo-styler.php:108 widgets/ravis-news-letter.php:84
+#: widgets/ravis-recent-post-thumb.php:69
+msgid "New title"
+msgstr ""
+
+#: widgets/ravis-news-letter.php:18
+msgid "Ravis Newsletter"
+msgstr ""
+
+#: widgets/ravis-news-letter.php:19
+msgid "Show newsletter subscription form."
+msgstr ""
+
+#: widgets/ravis-news-letter.php:38
+msgid "Sign Up Now"
+msgstr ""
+
+#: widgets/ravis-news-letter.php:88 widgets/ravis-recent-post-thumb.php:73
+msgid "Title:"
+msgstr ""
+
+#: widgets/ravis-news-letter.php:92
+msgid "Newsletter description:"
+msgstr ""
+
+#: widgets/ravis-news-letter.php:96
+msgid "Download the subscriber's email"
+msgstr ""
+
+#: widgets/ravis-recent-post-thumb.php:18
+msgid "Ravis Recent Post"
+msgstr ""
+
+#: widgets/ravis-recent-post-thumb.php:19
+msgid "Show the recent post with thumbnail."
+msgstr ""
+
+#: widgets/ravis-recent-post-thumb.php:77
+msgid "Post Count:"
+msgstr ""
+
+#: wp-activate.php:73
+msgid "Activation Key Required"
+msgstr ""
+
+#: wp-activate.php:76
+msgid "Activation Key:"
+msgstr ""
+
+#: wp-activate.php:92 wp-activate.php:111
+msgid "Your account is now active!"
+msgstr ""
+
+#: wp-activate.php:96
+#, php-format
+msgid ""
+"Your account has been activated. You may now <a href=\"%1$s\">log in</a> to "
+"the site using your chosen username of &#8220;%2$s&#8221;. Please check your "
+"email inbox at %3$s for your password and login instructions. If you do not "
+"receive an email, please check your junk or spam folder. If you still do not "
+"receive an email within an hour, you can <a href=\"%4$s\">reset your "
+"password</a>."
+msgstr ""
+
+#: wp-activate.php:98
+#, php-format
+msgid ""
+"Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your "
+"site using your chosen username of &#8220;%3$s&#8221;. Please check your "
+"email inbox at %4$s for your password and login instructions. If you do not "
+"receive an email, please check your junk or spam folder. If you still do not "
+"receive an email within an hour, you can <a href=\"%5$s\">reset your "
+"password</a>."
+msgstr ""
+
+#: wp-activate.php:103
+msgid "An error occurred during the activation"
+msgstr ""
+
+#: wp-activate.php:114
+msgid "Username:"
+msgstr ""
+
+#: wp-activate.php:115
+msgid "Password:"
+msgstr ""
+
+#: wp-activate.php:119
+#, php-format
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+"href=\"%2$s\">Log in</a>"
+msgstr ""
+
+#: wp-activate.php:121
+#, php-format
+msgid ""
+"Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the "
+"<a href=\"%2$s\">homepage</a>."
+msgstr ""
