@@ -27,3 +27,38 @@
     transform: translateX(-50%) translateY(-50%);
 }
 /*mañanitas*/
+
+
+/*servicios*/
+body.room-details .room-details .description {
+    text-align: center;
+    max-width: 1070px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px auto 40px;
+}
+
+body.room-details .booking-title-box {
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+body.room-details .booking-title-box .heading-box {
+    margin: 0px 0;
+}
+
+body.room-details .room-details .services {
+    max-width: 1000px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+body.room-details .room-details .services li {
+    letter-spacing: 1px;
+    width: 324px;
+}
+#buy-theme, .call-to-action-box {
+    display: none;
+}

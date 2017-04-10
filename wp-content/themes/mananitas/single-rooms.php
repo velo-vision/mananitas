@@ -23,21 +23,21 @@ while ( have_posts() )
 	        }
 	    }   		
 	}
-    $rooms_max_guest = get_post_meta($post_id, 'rooms_max_guest', true);
-	$rooms_room_size = get_post_meta($post_id, 'rooms_room_size', true);
-	$rooms_room_view = get_post_meta($post_id, 'rooms_room_view', true);
-	if(!empty($rooms_max_guest))
-	{
-		$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('Max %s people', 'pinar'), $rooms_max_guest).'</li>';
-	}
-	if(!empty($rooms_room_size))
-	{
-		$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('Room Size : %s sqf', 'pinar'), $rooms_room_size).'</li>';
-	}
-	if(!empty($rooms_room_view))
-	{
-		$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('View: %s', 'pinar'), $rooms_room_view).'</li>';
-	}
+ //    $rooms_max_guest = get_post_meta($post_id, 'rooms_max_guest', true);
+	// $rooms_room_size = get_post_meta($post_id, 'rooms_room_size', true);
+	// $rooms_room_view = get_post_meta($post_id, 'rooms_room_view', true);
+	// if(!empty($rooms_max_guest))
+	// {
+	// 	$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('Max %s people', 'pinar'), $rooms_max_guest).'</li>';
+	// }
+	// if(!empty($rooms_room_size))
+	// {
+	// 	$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('Room Size : %s sqf', 'pinar'), $rooms_room_size).'</li>';
+	// }
+	// if(!empty($rooms_room_view))
+	// {
+	// 	$features_list .= '<li><i class="fa fa-check"></i>'.sprintf(esc_html__('View: %s', 'pinar'), $rooms_room_view).'</li>';
+	// }
 
 ?>
 	<div class="room-detail-page">
@@ -60,9 +60,10 @@ while ( have_posts() )
 	    	<div class="booking-title-box-inner container">
 				<div class="heading-box">
 					<h2><?php echo ravis_fn_title_effect(esc_html(get_the_title( ))); ?></h2>
-					<div class="subtitle price"><?php echo esc_html(ravis_fn_price_value($rooms_price) ); ?> <span>- <?php esc_html_e( 'Per Night', 'pinar' ); ?></span></div>
+					<!-- <div class="subtitle price"><?php //echo esc_html(ravis_fn_price_value($rooms_price) ); ?> <span>- <?php // esc_html_e( 'Per Night', 'pinar' ); ?></span>
+					</div> -->
 				</div>
- 				<?php echo do_shortcode('[pinar-availability-form type="horizontal"]' ); ?>
+ 				<?php // echo do_shortcode('[pinar-availability-form type="horizontal"]' ); ?>
 	        </div>
 	    </div>
 	    <div class="room-details container">
@@ -72,7 +73,7 @@ while ( have_posts() )
 			</ul>
 	    </div>
 	</div>
-	<?php echo do_shortcode('[pinar-other-rooms]' ); ?>
+	<?php echo do_shortcode('[pinar-other-rooms title="Otras Habitaciones"]' ); ?>
 <?php 
 } 
 get_footer();
