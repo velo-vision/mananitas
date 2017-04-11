@@ -27,7 +27,10 @@
     transform: translateX(-50%) translateY(-50%);
 }
 /*mañanitas*/
-
+.heading-box {
+    text-align: center;
+    margin: 0px 0;
+}
 
 /*servicios*/
 body.room-details .room-details .description {
@@ -61,4 +64,75 @@ body.room-details .room-details .services li {
 }
 #buy-theme, .call-to-action-box {
     display: none;
+}
+
+/* wiget footer*/
+#top-footer {
+    padding: 50px 0 20px 0;
+}
+
+#top-footer #text-2 h4 {
+    text-align: left !important;
+}
+#top-footer .widget ul li {
+    line-height: 15px !important;
+}
+
+#footer ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.color{
+    color: #c5a46d;
+}
+
+.widget-title{
+    font-size: 26px !important;
+    font-weight: bold !important;
+    font-family: 'Lora', serif !important;
+}
+
+.textwidget{
+    text-align: left !important;
+}
+
+.direccion-contact li{
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+}
+.direccion-contact li span{
+    color: #cccccc;
+}
+
+.hotel{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    text-align: right !important;
+    color: #cccccc !important;
+    font-size: 15px !important;
+}
+
+#luxury-rooms .room-boxes .price-container .price, #special-dishes .room-boxes .price-container .price, #luxury-rooms .package-boxes .price-container .price, #special-dishes .package-boxes .price-container .price, #special-packages-type-2 .room-boxes .price-container .price, #special-packages-type-2 .package-boxes .price-container .price {
+    display: none;
+}
+
+#luxury-rooms .room-boxes .room-details .description, #special-dishes .room-boxes .room-details .description, #luxury-rooms .room-boxes .package-details .description, #special-dishes .room-boxes .package-details .description, #luxury-rooms .package-boxes .room-details .description, #special-dishes .package-boxes .room-details .description, #luxury-rooms .package-boxes .package-details .description, #special-dishes .package-boxes .package-details .description, #special-packages-type-2 .room-boxes .room-details .description, #special-packages-type-2 .room-boxes .package-details .description, #special-packages-type-2 .package-boxes .room-details .description, #special-packages-type-2 .package-boxes .package-details .description {
+    text-align: left;
+}
+.logo1{
+    width: 68px;
+    height: 77px;
+    float: right;
+}
+/*idiomas*/
+.chosen-container {
+    display: none;
+}
+
+
+/*medias query*/
+@media (min-width: 1200px){
+.container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
+    width: 77% !important;
 }

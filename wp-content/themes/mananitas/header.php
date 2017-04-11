@@ -14,6 +14,8 @@ $page_meta_class = (get_post_meta( get_the_id() , 'pinar_page_class', true ) ? g
 	<meta charset="<?php esc_attr( bloginfo( 'charset' ) ); ?>">
 	<meta name="description" content="<?php esc_attr( bloginfo( 'description' ) ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+	<link rel="stylesheet" href="fontaweson/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro" rel="stylesheet">
 	<?php
     if(isset($pinar_opt['opt-custom-css']) && $pinar_opt['opt-custom-css'] !=='')
     {
@@ -89,7 +91,7 @@ $page_meta_class = (get_post_meta( get_the_id() , 'pinar_page_class', true ) ? g
 		<!-- Main Header -->
 		<header id="main-header">
 			<div class="inner-container <?php echo !is_page_template('templates/home-page-fullscreen.php') ? 'container' : ''; ?>">
-				<div class="left-sec col-sm-4 <?php echo !is_page_template('templates/home-page-fullscreen.php') ? 'col-md-2' : 'col-md-3'; ?> clearfix">
+				<div class="left-sec col-lg-3 col-sm-4 <?php echo !is_page_template('templates/home-page-fullscreen.php') ? 'col-md-2' : 'col-md-3'; ?> clearfix">
 					<!-- Top Logo -->
 					<a href="<?php echo esc_url( home_url('/') ); ?>" id="top-logo" <?php echo ( (isset($pinar_opt['logo-image-normal']) && $pinar_opt['logo-image-normal']['url']!='') ? 'class="logo-img"' : '');  ?>>
 						<?php
@@ -110,10 +112,10 @@ $page_meta_class = (get_post_meta( get_the_id() , 'pinar_page_class', true ) ? g
 						?>
 					</a>
 				</div>
-				<div class="right-sec col-sm-8 <?php echo !is_page_template('templates/home-page-fullscreen.php') ? 'col-md-10' : 'col-md-9'; ?> clearfix">
+				<div class="right-sec col-lg-8 col-sm-8 <?php echo !is_page_template('templates/home-page-fullscreen.php') ? 'col-md-10' : 'col-md-9'; ?> clearfix">
 					<!-- Book Now -->
-					<a href="<?php echo ( !empty(RAVIS_BOOKING_PAGE_URL) ? esc_url( RAVIS_BOOKING_PAGE_URL ) : '#' ) ?>" class="book-now-btn btn btn-default btn-sm btn-out-border"><?php esc_html_e( 'Book Now', 'pinar' ); ?></a>
-
+					<!-- <a href="<?php // echo ( !empty(RAVIS_BOOKING_PAGE_URL) ? esc_url( RAVIS_BOOKING_PAGE_URL ) : '#' ) ?>" class="book-now-btn btn btn-default btn-sm btn-out-border"><?php // esc_html_e( 'Book Now', 'pinar' ); ?></a> -->
+					<a href="<?php echo site_url("?page_id=92");?>"><img src="<?php bloginfo('template_url'); ?>/img/ico_menu.png" class="btn-out-border:before logo1 "></a>
 					<!-- Main Menu -->
 					<div class="menu-container">
 						<?php

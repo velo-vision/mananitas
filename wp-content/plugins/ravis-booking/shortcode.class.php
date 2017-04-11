@@ -255,7 +255,7 @@ class Ravis_booking_shortcode
 						<div class="room-details col-xs-6 col-md-5">
 							<div class="title">'.esc_html(get_the_title()).'</div>
 							<div class="description">'.esc_html($rooms_short_desc).'</div>
-							<a href="'.get_permalink().'" class="btn btn-default">'.esc_html__('Details', 'ravis').'</a>
+							<a href="'.get_permalink().'" class="btn btn-default">'.esc_html__('Detalles', 'ravis').'</a>
 						</div>
 						<div class="price-container col-xs-6 col-md-7">
 							<div class="price">
@@ -785,7 +785,7 @@ class Ravis_booking_shortcode
 
 					if(trim($pinar_main_gallery_attr['more_link']) == TRUE)
 					{
-						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('More ...', 'ravis').'</a>';						
+						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('Más Fotos', 'ravis').'</a>';						
 					}
 
 					$pinar_main_gallery_code .='</div>';		
