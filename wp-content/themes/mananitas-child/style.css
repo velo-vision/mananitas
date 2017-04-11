@@ -134,5 +134,5 @@ body.room-details .room-details .services li {
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
-    width: 77% !important;
+    width: 89% !important;
 }
