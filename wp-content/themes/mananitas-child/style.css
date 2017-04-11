@@ -135,9 +135,9 @@ body.room-details .room-details .services li {
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
-    width: 89% !important;
+    /*width: 89% !important;*/
 }
-
+}
 /*Paginas interiores************************/
 
 .detalles{
@@ -199,3 +199,34 @@ body.room-details .room-details .services li {
 }
 
 /*Fin*/
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .logo1 {
+    width: 68px;
+    height: 77px;
+    float: left;
+    margin-left: 35%;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .logo1 {
+    float: left;
+    margin-left: 25%;
+}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px){
+  .logo1 {
+    float: left;
+    margin-left: 15%;
+}
+
+.politica {
+    margin-top: 20px;
+    font-size: 22px;
+}
+.text-politica {
+    margin-top: 15px;
+    font: 16px/20px "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+}
