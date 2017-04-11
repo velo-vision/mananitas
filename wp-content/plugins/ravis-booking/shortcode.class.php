@@ -1,14 +1,14 @@
 <?php
 /**
-* Ravis Short code Class 
+* Ravis Short code Class
 */
 class Ravis_booking_shortcode
 {
-	
+
 	function __construct()
 	{
 		add_action( 'init', array($this, 'init') );
-		
+
 	}
 
 	/**
@@ -59,11 +59,11 @@ class Ravis_booking_shortcode
 				 */
 				'style' => 'style-2',
 				'title' => __('Find A <b>Room</b>', 'ravis')
-			), $attr );  
+			), $attr );
 
 		$select_options ='';
 		for ($i=1; $i < 7; $i++)
-	    { 
+	    {
 	    	$select_options .= '<option value="'. esc_attr( $i ) .'">'. esc_html( $i ) .'</option>';
 	    }
 		switch ($pinar_availability_form_attr['type']) {
@@ -132,7 +132,7 @@ class Ravis_booking_shortcode
 			            <div class="booking-button-container">
 			                <input class="btn btn-default" value="'.esc_attr__('Book Now', 'ravis').'" type="submit"/>
 			            </div>
-			        </form>';		
+			        </form>';
 				break;
 			case 'simple':
 				$pinar_availability_form_str ='
@@ -166,10 +166,10 @@ class Ravis_booking_shortcode
 			        </form>
 				</div>';
 				break;
-		}		
+		}
 		return $pinar_availability_form_str;
 	}
-	
+
 	/**
 	 * ------------------------------------------------------------------------------------------
 	 * Generate the luxury rooms list
@@ -207,20 +207,20 @@ class Ravis_booking_shortcode
 		/**
 		 * Loading post for making the testimonials
 		 */
-		if ( $pinar_luxury_rooms->have_posts() ) 
+		if ( $pinar_luxury_rooms->have_posts() )
 		{
 			/**
 			 * Generating the testimonials HTML codes
 			 * @var string 	 pinar_luxury_rooms_str
 			 */
-	                    
+
 			$pinar_luxury_rooms_str = '
 
 			<div id="luxury-rooms">
 				<div class="heading-box">
 					<h2>'. ravis_fn_title_effect(esc_html($pinar_luxury_rooms_attr['title'])) .'</h2>
 					<div class="subtitle">'. esc_html($pinar_luxury_rooms_attr['subtitle']) .'</div>
-				</div>				
+				</div>
 				<div class="room-container container">
 				';
 			    /**
@@ -244,7 +244,7 @@ class Ravis_booking_shortcode
 						<div class="img-container col-xs-6 col-md-7">';
 							if($room_cover != '')
 		                    {
-		                    	$pinar_luxury_rooms_str .= wp_get_attachment_image( $room_cover, 'full', '', 'class=room-img' ); 
+		                    	$pinar_luxury_rooms_str .= wp_get_attachment_image( $room_cover, 'full', '', 'class=room-img' );
 		                    }
 		                    else
 		                    {
@@ -269,8 +269,8 @@ class Ravis_booking_shortcode
 			$pinar_luxury_rooms_str .= '
 					</div>
 				</div>';
-		} 
-		else 
+		}
+		else
 		{
 			// no posts found
 			$pinar_luxury_rooms_str = esc_html__('There is not any rooms','ravis');
@@ -301,12 +301,12 @@ class Ravis_booking_shortcode
 				if($slider_items_id[0] !=='')
 				{
 					foreach ($slider_items_id as $slider_item_id) {
-						$slide = get_post( intval( $slider_item_id ) );				
+						$slide = get_post( intval( $slider_item_id ) );
 						$pinar_main_slider_code .='
 							<div class="items">
 					            <img src="'.esc_url( $slide->guid ).'" alt="3"/>
 					        </div>';
-					}					
+					}
 				}
 				else
 				{
@@ -374,7 +374,7 @@ class Ravis_booking_shortcode
 		/**
 		 * Loading post for making the package
 		 */
-		if ( $pinar_packages_query->have_posts() ) 
+		if ( $pinar_packages_query->have_posts() )
 		{
 			/**
 			 * Generating the Package HTML codes
@@ -394,7 +394,7 @@ class Ravis_booking_shortcode
 		            $pinar_packages .= '<div class="subtitle">'.esc_html($pinar_packages_attr['subtitle']).'</div>';
 				}
 				$pinar_packages .= '</div>';
-		        
+
 		        $pinar_packages .= '<div class="package-container clearfix">';
 				    /**
 				     * Loop for getting post data
@@ -411,7 +411,7 @@ class Ravis_booking_shortcode
 						}
 						else
 						{
-							$package_booking_url = esc_url(RAVIS_BOOKING_PAGE_URL).'&package='.get_the_id();						
+							$package_booking_url = esc_url(RAVIS_BOOKING_PAGE_URL).'&package='.get_the_id();
 						}
 
 						$pinar_packages .= '
@@ -430,8 +430,8 @@ class Ravis_booking_shortcode
 			}
 			elseif(isset($pinar_packages_attr['type']) && $pinar_packages_attr['type'] =='expand')
 			{
-				$pinar_packages = '				
-				<div id="welcome" class="container">					
+				$pinar_packages = '
+				<div id="welcome" class="container">
 					<div class="heading-box">
 						<h2>'. ravis_fn_title_effect(esc_html($pinar_packages_attr['title'])) .'</h2>';
 						if($pinar_packages_attr['subtitle'])
@@ -447,10 +447,10 @@ class Ravis_booking_shortcode
 						<div class="desc">'.$pinar_packages_attr['description'].'</div>
 					</div>';
 				}
-				$pinar_packages .= '</div>				
-				<div id="special-packages-type-2" class="container">					
+				$pinar_packages .= '</div>
+				<div id="special-packages-type-2" class="container">
 					<div class="package-container">';
-						
+
 						$package_booking_url = '';
 						$package_i = 1;
 						while ( $pinar_packages_query->have_posts() )
@@ -464,7 +464,7 @@ class Ravis_booking_shortcode
 							}
 							else
 							{
-								$package_booking_url = esc_url(RAVIS_BOOKING_PAGE_URL).'&package='.get_the_id();						
+								$package_booking_url = esc_url(RAVIS_BOOKING_PAGE_URL).'&package='.get_the_id();
 							}
 							$post_id       = get_the_id();
 							$thumb_classes = array(
@@ -490,8 +490,8 @@ class Ravis_booking_shortcode
 				$pinar_packages .= '</div>
 				</div>';
 			}
-		} 
-		else 
+		}
+		else
 		{
 			// no posts found
 			$pinar_packages = esc_html__('There is not any packages','ravis');
@@ -544,13 +544,13 @@ class Ravis_booking_shortcode
 		/**
 		 * Loading post for making the service_slider
 		 */
-		if ( $pinar_service_slider->have_posts() ) 
+		if ( $pinar_service_slider->have_posts() )
 		{
 			/**
 			 * Generating the service_slider HTML codes
 			 * @var string 	 pinar_service_slider_code
 			 */
-	                    
+
 			$pinar_service_slider_code = '
 			<div id="our-services" class="services-container '. esc_attr( $pinar_service_slider_attr['class'] ) .'">
 	            <div class="heading-box"><h2>'. ravis_fn_title_effect(esc_html($pinar_service_slider_attr['title'] )) .'</h2></div>
@@ -570,11 +570,11 @@ class Ravis_booking_shortcode
 		                <div class="short-desc">'. wp_kses_post( get_the_content() ) .'</div>
 		            </div>';
 				}
-			$pinar_service_slider_code .= ' 
+			$pinar_service_slider_code .= '
 				</div>
 	        </div>';
-		} 
-		else 
+		}
+		else
 		{
 			// no posts found
 			$pinar_service_slider_code = esc_html__('There is not any services','ravis');
@@ -588,7 +588,7 @@ class Ravis_booking_shortcode
 	}
 	/**
 	 * ------------------------------------------------------------------------------------------
-	 * Generate Social icons 
+	 * Generate Social icons
 	 * ------------------------------------------------------------------------------------------
 	 */
 	function ravis_social_icon( $attr )
@@ -734,7 +734,7 @@ class Ravis_booking_shortcode
 					$pinar_main_gallery_code .='
 					<div class="heading-box">
 						<h2>'.ravis_fn_title_effect($pinar_main_gallery_attr['title']).'</h2>
-					</div>';					
+					</div>';
 				}
 
 				if($gallery_items_id[0] !=='')
@@ -760,13 +760,13 @@ class Ravis_booking_shortcode
 								</ul>
 							</div>
 						</div>
-						<ul class="image-main-box clearfix">';						
+						<ul class="image-main-box clearfix">';
 
 					$img_i = 1;
 					foreach ($gallery_items_id as $gallery_item_id) {
 						if(isset($pinar_main_gallery_attr['img_count']) && $pinar_main_gallery_attr['img_count']!='')
 						{
-							if( $img_i > $pinar_main_gallery_attr['img_count'] ) continue;							
+							if( $img_i > $pinar_main_gallery_attr['img_count'] ) continue;
 						}
 						$image = get_post( intval( $gallery_item_id ) );
 						$pinar_main_gallery_code .='
@@ -779,16 +779,16 @@ class Ravis_booking_shortcode
 									</figcaption>
 								</figure>
 							</li>';
-						$img_i ++;	
+						$img_i ++;
 					}
 					$pinar_main_gallery_code .='</ul>';
 
 					if(trim($pinar_main_gallery_attr['more_link']) == TRUE)
 					{
-						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('More ...', 'ravis').'</a>';						
+						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('More ...', 'ravis').'</a>';
 					}
 
-					$pinar_main_gallery_code .='</div>';		
+					$pinar_main_gallery_code .='</div>';
 				}
 				else
 				{
@@ -860,7 +860,7 @@ class Ravis_booking_shortcode
 						$postID            = get_the_id();
 						$staff_title       = get_post_meta( $postID , 'staff_title', true );
 						$staff_img         = get_the_post_thumbnail( $postID, '', '' );
-						
+
 						$staff_facebook    = get_post_meta( $postID , 'staff_facebook', true );
 						$staff_twitter     = get_post_meta( $postID , 'staff_twitter', true );
 						$staff_google_plus = get_post_meta( $postID , 'staff_google_plus', true );
@@ -883,7 +883,7 @@ class Ravis_booking_shortcode
 										'.(isset($staff_google_plus) && $staff_google_plus !='' ? '<li><a href="'.esc_attr($staff_google_plus).'"><i class="fa fa-google-plus "></i></a></li>' : '').'
 										'.(isset($staff_skype) && $staff_skype !='' ? '<li><a href="'.esc_attr($staff_skype).'"><i class="fa fa-skype "></i></a></li>' : '').'
 									</ul>
-								</div>			
+								</div>
 							</div>
 						';
 					}
@@ -910,9 +910,9 @@ class Ravis_booking_shortcode
 						<h2>'.ravis_fn_title_effect(esc_html($pinar_staff_attr['title'])).'</h2>';
 						if(isset($pinar_staff_attr['subtitle']) && $pinar_staff_attr['subtitle'] !='')
 						{
-							$pinar_staff_code .='<div class="subtitle">'.esc_html($pinar_staff_attr['subtitle']).'</div>';							
+							$pinar_staff_code .='<div class="subtitle">'.esc_html($pinar_staff_attr['subtitle']).'</div>';
 						}
-					$pinar_staff_code .='</div>';					
+					$pinar_staff_code .='</div>';
 				}
 				$pinar_staff_code .='<ul class="staff-list clearfix">';
 
@@ -927,7 +927,7 @@ class Ravis_booking_shortcode
 			/**
 			 * Loading post for making the Staff Boxes
 			 */
-			if ( $pinar_staff_query->have_posts() ) 
+			if ( $pinar_staff_query->have_posts() )
 			{
 				while ($pinar_staff_query->have_posts()) {
 					$pinar_staff_query->the_post();
@@ -945,7 +945,7 @@ class Ravis_booking_shortcode
 			            </li>';
 				}
 				wp_reset_postdata();
-			}		            
+			}
 
 			$pinar_staff_code .='</ul>
 				</div>';
@@ -966,7 +966,7 @@ class Ravis_booking_shortcode
 			/**
 			 * Loading post for making the Staff Boxes
 			 */
-			if ( $pinar_staff_query->have_posts() ) 
+			if ( $pinar_staff_query->have_posts() )
 			{
 				while ($pinar_staff_query->have_posts()) {
 					$pinar_staff_query->the_post();
@@ -976,7 +976,7 @@ class Ravis_booking_shortcode
 
 					$staff_title       = get_post_meta( $postID , 'staff_title', true );
 					$staff_img         = get_the_post_thumbnail( $postID, '', '' );
-					
+
 					$staff_facebook    = get_post_meta( $postID , 'staff_facebook', true );
 					$staff_twitter     = get_post_meta( $postID , 'staff_twitter', true );
 					$staff_google_plus = get_post_meta( $postID , 'staff_google_plus', true );
@@ -997,11 +997,11 @@ class Ravis_booking_shortcode
 									'.(isset($staff_google_plus) && $staff_google_plus !='' ? '<li><a href="'.esc_attr($staff_google_plus).'"><i class="fa fa-google-plus "></i></a></li>' : '').'
 									'.(isset($staff_skype) && $staff_skype !='' ? '<li><a href="'.esc_attr($staff_skype).'"><i class="fa fa-skype "></i></a></li>' : '').'
 								</ul>
-							</div>			
+							</div>
 						</div>';
 				}
 				wp_reset_postdata();
-			}		            
+			}
 
 			$pinar_staff_code .='</div>';
 
@@ -1014,7 +1014,7 @@ class Ravis_booking_shortcode
 
 	/**
 	 * ------------------------------------------------------------------------------------------
-	 * Send Feedback Form 
+	 * Send Feedback Form
 	 * ------------------------------------------------------------------------------------------
 	 */
 	function pinar_send_feedback($attr)
@@ -1113,29 +1113,39 @@ class Ravis_booking_shortcode
 							<div class="img-container">';
 							if($room_cover != '')
 		                    {
-		                    	$pinar_other_rooms .= wp_get_attachment_image( $room_cover, $thumb_size ); 
+		                    	$pinar_other_rooms .= wp_get_attachment_image( $room_cover, $thumb_size );
 		                    }
 		                    else
 		                    {
 		                    	$pinar_other_rooms .= '<img src="'. esc_url ( PINAR_IMG_PATH ).'room-placeholder.jpg" alt="'. esc_attr( esc_html__('No Image','ravis') ).'" />';
 		                    }
-							
-							$pinar_other_rooms .= '<a href="'.esc_url(get_permalink()).'" class="btn btn-default btn-out-border">'.esc_html__('More Details', 'ravis').'</a>
+
+							$pinar_other_rooms .= ''.esc_html__('', 'ravis').'
 							</div>
-							<div class="details">
+							<div class="details" style="background-color: transparent;">
 								<div class="title"><a href="'.esc_url(get_permalink()).'">'.ravis_fn_title_effect(esc_html(get_the_title())).'</a></div>
 								<div class="desc">'.esc_html($rooms_short_desc).'</div>
-								<div class="price">
-									<span>'.esc_html($price_unit.number_format($rooms_price)).'</span>
-									'.esc_html__('- Per Night', 'ravis').'
-								</div>
+							  <div class="detalles">
+							  	<a href="http://localhost/proyectos/mananitas/?rooms=double-room" class="btn btn-default btn-out-border">Detalles</a>
+							  </div>
 							</div>
 						</div>';
-					}	
+					}
 				}
 
-			$pinar_other_rooms .= '</div> ';
-		
+			$pinar_other_rooms .= '</div>
+			<div class="cancelacion col-xs-12 col-md-12">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
+					<p class="politica">
+						Política de cancelación y reembolso
+					</p>
+					<p class="text-politica">
+						Nuestra política de cancelación o cambio es de 7 días antes de la fecha de llegada, de no cancelar en tiempo y forma se
+						hará el cargo de No Show de la primer noche por habitación como penalización.
+					</p>
+				</div>
+			</div>';
+
 		return balancetags( $pinar_other_rooms );
 	}
 
@@ -1204,7 +1214,7 @@ class Ravis_booking_shortcode
 			$pinar_text_slider_content .='<div class="text-slides-container">';
 
 			foreach ($pinar_opt['pinar-text-slider-items'] as $text_slide) {
-				$pinar_text_slider_content .='<div class="text-slide-box">'.balancetags( $text_slide ).'</div>';	
+				$pinar_text_slider_content .='<div class="text-slide-box">'.balancetags( $text_slide ).'</div>';
 			}
 			$pinar_text_slider_content .='</div>';
 		}
@@ -1256,7 +1266,7 @@ class Ravis_booking_shortcode
 					}
 				$pinar_room_listing_content .= '</div>
 				<div class="room-container room-masonry '.esc_attr($pinar_room_listing_attr['class']).'">';
-					
+
 
 				foreach ( $pinar_rooms_list->posts as $pinar_rooms_list_itme ) {
 					$post_id          = $pinar_rooms_list_itme->ID;
@@ -1272,7 +1282,7 @@ class Ravis_booking_shortcode
 
 		                    if($room_cover != '')
 		                    {
-		                    	$pinar_room_listing_content .= wp_get_attachment_image( $room_cover, $thumb_size ); 
+		                    	$pinar_room_listing_content .= wp_get_attachment_image( $room_cover, $thumb_size );
 		                    }
 		                    else
 		                    {
@@ -1363,7 +1373,7 @@ class Ravis_booking_shortcode
 			                    	'. get_the_post_thumbnail( $post_id ).'
 			                    </a>
 							</div>
-			                ';						
+			                ';
 						}
 
 						$pinar_latest_posts_content .= '
@@ -1387,8 +1397,8 @@ class Ravis_booking_shortcode
 		return balancetags( $pinar_latest_posts_content );
 	}
 
-	
-	
+
+
 
 }
 

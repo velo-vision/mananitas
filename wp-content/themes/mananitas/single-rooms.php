@@ -1,4 +1,4 @@
-<?php 
+<?php
 // archive-rooms.php
 // Room Archive
 
@@ -7,11 +7,11 @@ get_header();
 
 while ( have_posts() )
 {
-	the_post();	
+	the_post();
 	$post_id       = get_the_id();
 	$rooms_price   = get_post_meta( $post_id, 'rooms_price', true );
 	$room_imgs_id  = explode( ',' , get_post_meta( $post_id, 'rooms_slideshow_images', true ));
-	
+
 	$features_list = '';
 	$room_services = get_post_meta( $post_id, 'rooms_services_checkboxes',true);
 	if(!empty($room_services)){
@@ -19,9 +19,9 @@ while ( have_posts() )
 	        $service_post   = get_post($room_service);
 	        if(!empty($service_post->post_title))
 	        {
-	     		$features_list .= '<li><i class="fa fa-check"></i>'.esc_html($service_post->post_title).'</li>';   	
+	     		$features_list .= '<li><i class="fa fa-check"></i>'.esc_html($service_post->post_title).'</li>';
 	        }
-	    }   		
+	    }
 	}
  //    $rooms_max_guest = get_post_meta($post_id, 'rooms_max_guest', true);
 	// $rooms_room_size = get_post_meta($post_id, 'rooms_room_size', true);
@@ -40,10 +40,13 @@ while ( have_posts() )
 	// }
 
 ?>
+
+
+
 	<div class="room-detail-page">
 
 		<div id="room-details-slider">
-			<?php 
+			<?php
 			foreach ($room_imgs_id as $room_img_id) {
 				if(empty($room_img_id)) continue;
 				echo '
@@ -55,6 +58,15 @@ while ( have_posts() )
 
 			?>
 	    </div>
+		<!-- BOTON RESERVAR -->
+			<div class="boton-center">
+				<form class="booking-form" action="http://localhost/proyectos/mananitas/?page_id=175" method="post">
+						<div class="booking-button-container reservar col-xs-12">
+								<input class="btn btn-default" value="Reservar" type="submit">
+						</div>
+				</form>
+			</div>
+			<!-- FIN BOTON RESERVAR -->
 
 	    <div class="booking-title-box">
 	    	<div class="booking-title-box-inner container">
@@ -74,6 +86,6 @@ while ( have_posts() )
 	    </div>
 	</div>
 	<?php echo do_shortcode('[pinar-other-rooms title="Otras Habitaciones"]' ); ?>
-<?php 
-} 
+<?php
+}
 get_footer();
