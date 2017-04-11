@@ -1,9 +1,8 @@
-
-
 <?php
 /**
- * page.php
- * Template Name: Spa
+ *	wide.php
+ * 	Wide page template
+ *  Template Name: restaurante-mañanitas
  */
 
 get_header();
@@ -11,8 +10,7 @@ get_header();
 $page_id    = ( get_post_meta( $post->ID, 'pinar_page_id' ) != null ? get_post_meta( $post->ID, 'pinar_page_id', true ) : '' );
 $page_class = ( get_post_meta( $post->ID, 'pinar_page_class' ) != null ? get_post_meta( $post->ID, 'pinar_page_class', true ) : '' );
 
-	echo '<section '.(isset($page_id) && $page_id !='' ? ('id="'.esc_attr( $page_id ).'"') : '').' class="container main-page-container size-spa'.($page_class !=='' ? esc_attr( $page_class ) : '').'">';
-
+	echo //'<section '.(isset($page_id) && $page_id !='' ? ('id="'.esc_attr( $page_id ).'"') : '').' class="main-page-container'.($page_class !=='' ? esc_attr( $page_class ) : '').'">';
 
 		if (have_posts())
 		{
@@ -21,6 +19,7 @@ $page_class = ( get_post_meta( $post->ID, 'pinar_page_class' ) != null ? get_pos
 				$post_id        = get_the_id();
 				the_post();
 				the_content();
+
 	            echo '
 				<div class="comments-container">
 		            <h3>';
@@ -52,10 +51,6 @@ $page_class = ( get_post_meta( $post->ID, 'pinar_page_class' ) != null ? get_pos
 		}
 
 
-	echo "</section>";	?>
+	echo "</section>";
 
-
-
-<?php
 get_footer();
-?>
