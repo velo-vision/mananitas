@@ -146,6 +146,103 @@ body.room-details .room-details .services li {
     font-weight: 500;
     color:#bb9a6d;
 }
+.titulos-spam{
+    height: 400px !important;
+}
+.contenido-span{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 17px;
+    text-align: center;
+    line-height: 35px;
+}
+.linea-span{
+    background-color: #bb9a6d;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+}
+.nuestras{
+    text-align: center;
+}
+.centro{
+    font-family: 'Lora', serif !important;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: #c5a46d;
+    text-transform: capitalize;
+}
+.mio{
+    width: 120px;
+    margin: 48px auto;
+    height: 33px;
+}
+.mio .vc_btn3.vc_btn3-size-sm {
+    font-size: 12px;
+    padding: 0px 12px;
+}
+
+.mio a{
+    color: #FFFFFF !important;
+    background-color: #C5A46D !important;
+    border-color: #C5A46D !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+    background-image: none !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.marco{
+    height: 112%;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.imagen-size-spa{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+
+}
+
+.marco2{
+    height: 60%;
+    width: 450px;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+}
+.marco2 ul{
+    list-style-image: url('img/lista.png');
+    margin: 4% 0 0 12%;
+}
+.marco2 ul li{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #999999;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+.size-servicios{
+
+}
+
+.size-servicios img{
+    width: 67% !important;
+    height: 300px;
+    float: right;
+}
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
