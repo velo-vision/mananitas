@@ -130,12 +130,26 @@ body.room-details .room-details .services li {
 .chosen-container {
     display: none;
 }
+/*spa*/
+.titulo-spa{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color:#8e8e8e;
+}
 
-
+.title-spa2{
+    font-family: 'Lora', serif !important;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 500;
+    color:#bb9a6d;
+}
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
-    width: 89% !important;
+   /* width: 89% !important;*/
 }
 
 /*Paginas interiores************************/
@@ -199,3 +213,20 @@ body.room-details .room-details .services li {
 }
 
 /*Fin*/
+
+/*medias Est.*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+}
+
+@media only screen and (min-width:600px) and (max-width:992px){
+}
+
+@media only screen and (min-width:200px) and (max-width:600px){
+/*home*/
+.logo1 {
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+
+}
