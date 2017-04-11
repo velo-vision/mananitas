@@ -218,6 +218,15 @@ body.room-details .room-details .services li {
 
 /*Fin*/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+@media only screen and (min-width: 200px) and (max-width: 992px){
+  #main-slider .owl-controls, #fullscreen-slider .owl-controls, #room-details-slider .owl-controls {
+    bottom: -12%;
+}
+}
+
+>>>>>>> jorge
 @media only screen and (min-width: 768px) and (max-width: 992px){
   .logo1 {
     width: 68px;
@@ -231,6 +240,11 @@ body.room-details .room-details .services li {
   .logo1 {
     float: left;
     margin-left: 25%;
+}
+
+.politica {
+    margin-top: 35px;
+    font-size: 26px;
 }
 }
 
