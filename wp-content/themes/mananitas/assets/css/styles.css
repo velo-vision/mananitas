@@ -11249,9 +11249,11 @@ blockquote {
   @media (max-width: 345px) {
     #main-header .inner-container > div {
       height: 50px; }
-      #main-header .inner-container > div.left-sec {
-        width: 100%;
-        padding: 0; }
+#main-header .inner-container > div.left-sec {
+  width: 100%;
+  height: 85px;
+  padding: 0; 
+}
         #main-header .inner-container > div.left-sec #top-logo {
           float: none;
           padding: 0;
@@ -11260,8 +11262,10 @@ blockquote {
             border: 0; }
           #main-header .inner-container > div.left-sec #top-logo i {
             display: none; }
-      #main-header .inner-container > div.right-sec {
-        width: 100%; }
+#main-header .inner-container > div.right-sec {
+  width: 100%;
+  height: 70px;
+}
         #main-header .inner-container > div.right-sec a.btn, #main-header .inner-container > div.right-sec #top-footer .tagcloud a, #top-footer .tagcloud #main-header .inner-container > div.right-sec a, #main-header .inner-container > div.right-sec .post-box a.more-link, .post-box #main-header .inner-container > div.right-sec a.more-link, #main-header .inner-container > div.right-sec #search-no-result .search-form a.search-submit, #search-no-result .search-form #main-header .inner-container > div.right-sec a.search-submit, #main-header .inner-container > div.right-sec aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #main-header .inner-container > div.right-sec a {
           margin-top: 10px; }
     #main-header #main-menu-handle {
