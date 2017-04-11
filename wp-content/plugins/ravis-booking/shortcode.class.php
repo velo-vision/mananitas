@@ -785,11 +785,7 @@ class Ravis_booking_shortcode
 
 					if(trim($pinar_main_gallery_attr['more_link']) == TRUE)
 					{
-<<<<<<< HEAD
 						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('Más Fotos', 'ravis').'</a>';						
-=======
-						$pinar_main_gallery_code .='<a href="'.esc_url( RAVIS_GALLERY_PAGE_URL ).'" class="btn btn-default btn-sm">'.esc_html__('More ...', 'ravis').'</a>';
->>>>>>> jorge
 					}
 
 					$pinar_main_gallery_code .='</div>';
