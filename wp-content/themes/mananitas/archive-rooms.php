@@ -1,4 +1,4 @@
-<?php 
+<?php
 // archive-rooms.php
 // Room Archive
 
@@ -23,7 +23,7 @@ get_header();
 
                     if($room_cover != '')
                     {
-                    	echo wp_get_attachment_image( $room_cover, $thumb_size ); 
+                    	echo wp_get_attachment_image( $room_cover, $thumb_size );
                     }
                     else
                     {
