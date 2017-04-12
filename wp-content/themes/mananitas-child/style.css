@@ -142,7 +142,7 @@ body.room-details .room-details .services li {
 .title-spa2{
     font-family: 'Lora', serif !important;
     text-align: center;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 500;
     color:#bb9a6d;
 }
@@ -183,6 +183,9 @@ body.room-details .room-details .services li {
    -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
     transform: scale(1.1);
+}
+.img-instalaciones img{
+    max-width: 90%;
 }
 .mio{
     width: 120px;
@@ -307,7 +310,7 @@ body.room-details .room-details .services li {
 
 }
 .mov-row-trata{
-    margin: 0 10%;
+    margin: 0 0%;
 }
 .title-trat{
     font-family: 'Lora', serif !important;
@@ -317,8 +320,8 @@ body.room-details .room-details .services li {
 }
 .linea-trat{
     border-bottom: solid 1px #f4f3f3;
-    padding-bottom: 4%;
-    line-height: 25px;
+    padding-bottom: 0%;
+    line-height: 22px;
 }
 
 .linea-trat strong{
@@ -338,6 +341,7 @@ body.room-details .room-details .services li {
     /* margin-bottom: 3%; */
     margin: 0 1% 1% 1%;
     width: 31%;
+    height: 740px;
 }
 .descarga-trata{
     font-family: 'Source Sans Pro', sans-serif !important;
@@ -433,10 +437,6 @@ transform: scale(1.1);
 
 /*Fin*/
 
-/*medias Est.*/
-@media only screen and (min-width:992px) and (max-width:1200px){
-}
-
 
 /*medias query*/
 @media (min-width: 1200px){
@@ -468,10 +468,7 @@ body.sticky #main-header.sticky .inner-container > div {
 .titulo-spa {
     font-size: 22px !important;
 }
-.vc_custom_1491930250274 {
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-}
+
 .title-spa2 {
     font-size: 22px !important;
 }
@@ -515,19 +512,40 @@ body.sticky #main-header.sticky .inner-container > div {
 .widget-title {
   font-size: 20px !important;
   text-align: center !important;
-
 }
 #top-footer #text-2 h4 {
     text-align: center !important;
 }
+#luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
+    height: 200px;
+}
+#luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img {
+left: 0px;
+top: 0px;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
 
-
+#luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img:Hover{
+left: 0px;
+top: 0px;
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+transform: scale(1.1);
+}
 
 }
 
 
 @media only screen and (min-width:600px) and (max-width:992px){
- .title-spa2 {
+.titulo-spa {
+    font-size: 35px;
+}
+
+.title-spa2 {
     font-size: 27px;
 }
 .circuito {
@@ -566,6 +584,23 @@ body.sticky #main-header.sticky .inner-container > div {
 
 
 
+}
 
+@media only screen and (min-width:992px) and (max-width:1200px){
+.title-spa2 {
+    font-size: 30px;
+}
+
+.size-trata {
+    margin: 0 0% 1% 1%;
+    width: 32%;
+    height: 850px;
+}
+.circuito {
+    margin: 0 4% !important;
+}
+.servicios-lista {
+    width: 68%;
+}
 
 }
