@@ -1,0 +1,589 @@
+/**
+ * Theme Name: Mananitas Child
+ * Theme URI: http://velosoft.mx
+ * Description: Mananitas Child Template
+ * Template: mananitas
+ * Version: 1.0.0
+ * Author: Velosoft
+ * Author URI: http://velosoft.mx
+ * License: GNU General Public License
+ * License URI: license.txt
+ * Tags: white, responsive-layout, custom-background, threaded-comments, translation-ready, editor-style, custom-menu
+ */
+
+
+ #luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 136% !important;
+    height: auto;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+/*mañanitas*/
+.heading-box {
+    text-align: center;
+    margin: 0px 0;
+}
+
+/*servicios*/
+body.room-details .room-details .description {
+    text-align: center;
+    max-width: 1070px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 20px auto 40px;
+}
+
+body.room-details .booking-title-box {
+    background: #ffffff;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 150px
+}
+
+body.room-details .booking-title-box .heading-box {
+    margin: 0px 0;
+}
+
+body.room-details .room-details .services {
+    max-width: 1000px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+
+body.room-details .room-details .services li {
+    letter-spacing: 1px;
+    width: 324px;
+}
+#buy-theme, .call-to-action-box {
+    display: none;
+}
+
+/* wiget footer*/
+#top-footer {
+    padding: 50px 0 20px 0;
+}
+
+#top-footer #text-2 h4 {
+    text-align: left !important;
+}
+#top-footer .widget ul li {
+    line-height: 15px !important;
+}
+
+#footer ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.color{
+    color: #c5a46d;
+}
+
+.widget-title{
+    font-size: 26px !important;
+    font-weight: bold !important;
+    font-family: 'Lora', serif !important;
+}
+
+.textwidget{
+    text-align: left !important;
+}
+
+.direccion-contact li{
+    margin: 5px 0 !important;
+    font-size: 16px !important;
+}
+.direccion-contact li span{
+    color: #cccccc;
+}
+
+.hotel{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    text-align: right !important;
+    color: #cccccc !important;
+    font-size: 15px !important;
+}
+
+#luxury-rooms .room-boxes .price-container .price, #special-dishes .room-boxes .price-container .price, #luxury-rooms .package-boxes .price-container .price, #special-dishes .package-boxes .price-container .price, #special-packages-type-2 .room-boxes .price-container .price, #special-packages-type-2 .package-boxes .price-container .price {
+    display: none;
+}
+
+#luxury-rooms .room-boxes .room-details .description, #special-dishes .room-boxes .room-details .description, #luxury-rooms .room-boxes .package-details .description, #special-dishes .room-boxes .package-details .description, #luxury-rooms .package-boxes .room-details .description, #special-dishes .package-boxes .room-details .description, #luxury-rooms .package-boxes .package-details .description, #special-dishes .package-boxes .package-details .description, #special-packages-type-2 .room-boxes .room-details .description, #special-packages-type-2 .room-boxes .package-details .description, #special-packages-type-2 .package-boxes .room-details .description, #special-packages-type-2 .package-boxes .package-details .description {
+    text-align: left;
+}
+.logo1{
+    width: 68px;
+    height: 77px;
+    float: right;
+}
+/*idiomas*/
+.chosen-container {
+    display: none;
+}
+/*spa*/
+.titulo-spa{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color:#8e8e8e;
+}
+
+.title-spa2{
+    font-family: 'Lora', serif !important;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color:#bb9a6d;
+}
+.titulos-spam{
+    height: 400px !important;
+}
+.contenido-span{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 17px;
+    text-align: center;
+    line-height: 35px;
+}
+.linea-span{
+    background-color: #bb9a6d;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+}
+.nuestras{
+    text-align: center;
+}
+.centro{
+    font-family: 'Lora', serif !important;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: #c5a46d;
+    text-transform: capitalize;
+}
+.img-instalaciones{
+-webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+.img-instalaciones:Hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.img-instalaciones img{
+    max-width: 90%;
+}
+.mio{
+    width: 120px;
+    margin: 48px auto;
+    height: 33px;
+}
+.mio .vc_btn3.vc_btn3-size-sm {
+    font-size: 12px;
+    padding: 0px 12px;
+}
+
+.mio a{
+    color: #FFFFFF !important;
+    background-color: #C5A46D !important;
+    border-color: #C5A46D !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+    background-image: none !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.marco{
+    height: 112%;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.imagen-size-spa{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+
+}
+
+.marco2{
+    height: 65%;
+    width: 450px;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+}
+.marco2 ul{
+    list-style-image: url('img/lista.png');
+    margin: 4% 0 0 12%;
+}
+.marco2 ul li{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #999999;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+.size-servicios{
+
+}
+
+.size-servicios img{
+    width: 67% !important;
+    height: 300px;
+    float: right;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    opacity: .8;
+}
+
+.size-servicios img:hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.circuito{
+   margin: 0 13% !important;
+}
+.img-circ{
+-webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+.img-circ:Hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.marco .flexslider {
+    margin: 0 0 0px !important;
+    border:none;
+}
+
+.servicios-lista{
+    margin: 2% 0 0 5%;
+    width: 46%;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    color:#999999;
+}
+.servicios-lista ul li{
+    list-style-image: url('img/lista.png');
+    margin: 0 0 0 2%;
+    line-height: 42px;
+    list-style-position: initial;
+}
+
+.size-full-trata{
+
+}
+.mov-row-trata{
+    margin: 0 0%;
+}
+.title-trat{
+    font-family: 'Lora', serif !important;
+    font-size: 24px;
+    color:#c5a46d;
+    font-weight: 500;
+}
+.linea-trat{
+    border-bottom: solid 1px #f4f3f3;
+    padding-bottom: 0%;
+    line-height: 22px;
+}
+
+.linea-trat strong{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.y-mas-trat{
+    color: #c3a26d;
+    font-family: 'Lora', serif !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.size-trata{
+
+    margin: 0 1% 1% 1%;
+    width: 31%;
+    height: 740px;
+}
+.descarga-trata{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+.descarga-trata-down span{
+    font-family: 'Lora', serif !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.img-bouti{
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+.img-bouti:Hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+/*Paginas interiores************************/
+
+.detalles{
+  margin-top: 60px;
+}
+
+/*Linea de bajo de detalle*/
+.room-container .room-box .details {
+    border-bottom: transparent !important;
+}
+
+.room-container .room-box:hover .details {
+    border-color: transparent !important;
+}
+/*Fin*/
+
+.cancelacion{
+  background: #f1f1f1;
+  margin-top: -240px;
+  height: 245px;
+  text-align: center;
+}
+
+.room-container .room-box {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.politica{
+  margin-top: 40px;
+  color: #c5a46d;
+  font: 100 2.2em/1.4em "Lora", Arial, Helvetica, sans-serif;
+}
+
+.text-politica{
+  margin-top: 20px;
+  font: 15px/20px "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+/*Botones de slider*/
+.owl-theme .owl-controls {
+    bottom: -105px;
+}
+/*Fin*/
+
+.boton-center{
+ text-align: center;
+}
+
+/*Boton reservar*/
+.reservar input[type="submit"] {
+  color: #FFFFFF;
+  background-color: #C5A46D;
+  border-color: #C5A46D;
+  border-radius: 50px !important;
+  height: 80px !important;
+  width: 80px !important;
+  margin-top: -40px !important;
+}
+
+/*Fin*/
+
+
+/*medias query*/
+@media (min-width: 1200px){
+.container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
+   /* width: 89% !important;*/
+}
+
+@media (max-width: 600px){
+
+}
+
+@media (max-width: 345px){}
+.logo1 {
+    width: 60px !important;
+    height: 60px !important;
+    float: right;
+}
+}
+/*medias query est.*/
+@media only screen and (min-width:200px) and (max-width:600px){
+/*home*/
+.logo1 {
+    width: 60px !important;
+    height: 60px !important;
+}
+body.sticky #main-header.sticky .inner-container > div {
+    height: 71px;
+}
+.titulo-spa {
+    font-size: 22px !important;
+}
+
+.title-spa2 {
+    font-size: 22px !important;
+}
+.titulos-spam {
+    height: 301px !important;
+}
+.contenido-span {
+    font-size: 15px !important;
+    line-height: 24px !important;
+}
+.marco2 {
+    height: 38% !important;
+    width: 305px !important;
+    position: static !important;
+    margin: 0 2% !important;
+}
+.marco2 ul {
+    list-style-image: url(img/lista.png);
+    margin: 0px !important;
+}
+.marco2 ul li {
+  font-size: 15px !important;
+  line-height: 32px !important;
+}
+.size-servicios img {
+    width: 100% !important;
+}
+.servicios-lista {
+    width: 100% !important;
+}
+.size-trata {
+    margin: 0 1% 7% 1% !important;
+    width: 100% !important;
+}
+.descarga-trata {
+  font-size: 17px !important;
+}
+.descarga-trata-down span {
+  font-size: 17px !important;
+}
+.widget-title {
+  font-size: 20px !important;
+  text-align: center !important;
+}
+#top-footer #text-2 h4 {
+    text-align: center !important;
+}
+#luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
+    height: 200px;
+}
+#luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img {
+left: 0px;
+top: 0px;
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+
+#luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img:Hover{
+left: 0px;
+top: 0px;
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:992px){
+.titulo-spa {
+    font-size: 35px;
+}
+
+.title-spa2 {
+    font-size: 27px;
+}
+.circuito {
+    margin: 0 3% !important;
+}
+
+.servicios-lista {
+    width: 68%;
+}
+.mov-row-trata {
+    margin: 0 0%;
+}
+.size-trata {
+    margin: 0px 0% 2% 0%;
+    width: 100%;
+}
+.title-spa2 {
+    font-size: 40px;
+}
+.circuito {
+    margin: 0 3% !important;
+}
+.mov-row-trata {
+    margin: 0 0%;
+}
+.owl-theme .owl-controls {
+    bottom: 244px;
+}
+#luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
+    height: 249px;
+}
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+.title-spa2 {
+    font-size: 30px;
+}
+
+.size-trata {
+    margin: 0 0% 1% 1%;
+    width: 32%;
+    height: 850px;
+}
+.circuito {
+    margin: 0 4% !important;
+}
+.servicios-lista {
+    width: 68%;
+}
+
+}
