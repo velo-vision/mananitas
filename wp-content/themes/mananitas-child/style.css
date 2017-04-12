@@ -261,8 +261,19 @@ body.room-details .room-details .services li {
     border:none;
 }
 
-.marco .imagen{
-
+.servicios-lista{
+    margin: 2% 0 0 5%;
+    width: 46%;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    color:#999999;
+}
+.servicios-lista ul li{
+    list-style-image: url('img/lista.png');
+    margin: 0 0 0 2%;
+    line-height: 42px;
+    list-style-position: initial;
 }
 
 /*medias query*/
