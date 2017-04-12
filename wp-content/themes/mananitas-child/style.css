@@ -243,6 +243,18 @@ body.room-details .room-details .services li {
     height: 300px;
     float: right;
 }
+
+.circuito{
+   margin: 0 13% !important;
+}
+.marco .flexslider {
+    margin: 0 0 0px !important;
+    border:none;
+}
+
+.marco .imagen{
+
+}
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
