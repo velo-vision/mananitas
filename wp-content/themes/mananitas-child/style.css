@@ -335,10 +335,7 @@ body.room-details .room-details .services li {
     font-weight: bold;
 }
 .size-trata{
-    /* width: 30%; */
-    /* margin-right: 3%; */
-    /*height: 849px;*/
-    /* margin-bottom: 3%; */
+
     margin: 0 1% 1% 1%;
     width: 31%;
     height: 740px;
@@ -353,15 +350,7 @@ body.room-details .room-details .services li {
     font-size: 24px;
     font-weight: 500;
 }
-/*.anime{
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-}*/
+
 .img-bouti{
 -webkit-transition: 1s ease;
 -moz-transition: 1s ease;
@@ -559,10 +548,6 @@ transform: scale(1.1);
     margin: 0 0%;
 }
 .size-trata {
-    /* width: 30%; */
-    /* margin-right: 3%; */
-    /* height: 849px; */
-    /* margin-bottom: 3%; */
     margin: 0px 0% 2% 0%;
     width: 100%;
 }
@@ -581,8 +566,6 @@ transform: scale(1.1);
 #luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
     height: 249px;
 }
-
-
 
 }
 
