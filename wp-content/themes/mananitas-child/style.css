@@ -217,19 +217,6 @@ body.room-details .room-details .services li {
     position: absolute;
     background: #fff;
 }
-.marco3{
-    height: 370px;
-    width: 490px;
-    border: 3px solid #FFFFFF;
-    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
-    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    z-index: 2;
-    position: absolute;
-    background: #fff;
-}
 .marco2 ul{
     list-style-image: url('img/lista.png');
     margin: 4% 0 0 12%;
@@ -264,6 +251,126 @@ body.room-details .room-details .services li {
 .marco .imagen{
 
 }
+
+/*Restaurant*************/
+.restaurant-title{
+  margin-top: 50px;
+}
+
+#luxury-rooms .room-boxes .room-details .title, #special-dishes .room-boxes .room-details .title, #luxury-rooms .room-boxes .package-details .title, #special-dishes .room-boxes .package-details .title, #luxury-rooms .package-boxes .room-details .title, #special-dishes .package-boxes .room-details .title, #luxury-rooms .package-boxes .package-details .title, #special-dishes .package-boxes .package-details .title, #special-packages-type-2 .room-boxes .room-details .title, #special-packages-type-2 .room-boxes .package-details .title, #special-packages-type-2 .package-boxes .room-details .title, #special-packages-type-2 .package-boxes .package-details .title {
+    font: 1.7em/2em "Lora", Arial, Helvetica, sans-serif;
+    color: #C5A46D;
+    line-height: normal;
+}
+
+#great-taste h2 {
+    padding-top: 240px;
+    color: #C5A46D;
+    font-size: 2em;
+    line-height: normal;
+}
+
+#great-taste h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: -2px;
+    color: #999999;
+    font-weight: 300;
+}
+
+#restaurant-menu {
+    margin: 0px;
+}
+
+.spacing{
+  margin-top:130px;
+}
+
+
+.text-degustación{
+  text-align: center;
+  font-size: 2em;
+}
+
+.text-degustación p{
+  color: #989898;
+  font-weight: 500;
+  font-family: 'Lora', serif !important;
+}
+
+.text-degustación span{
+  color: #c5a46d;
+  font-weight: 600;
+  font-family: 'Lora', serif !important;
+}
+
+#great-taste h3 {
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color: #999999;
+    font-weight: 300;
+    margin-top: 18%;
+}
+
+#great-taste h3 span{
+    font-size: 1em;
+    font:"Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color: #c5a46d;
+    font-weight: 600;
+    margin-top: 18%;
+}
+
+.linea-span2 {
+   background-color: #bb9a6d ;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto;
+}
+
+.horario-contacto{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.borde-restaurant{
+  border-left: 2px solid #c5a46d;
+  height: 115px;
+  margin-bottom: 30px;
+}
+
+.background-restaurant{
+  background: #f1f1f1;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.restaurante-horario h3{
+  color: #c5a46d;
+  font-family: 'Lora', serif !important;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.restaurante-horario p{
+  margin-left: 20px;
+}
+
+.restaurante-contacto h3{
+  color: #c5a46d;
+  font-family: 'Lora', serif !important;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.restaurante-contacto p{
+  margin-left: 20px;
+}
+/*Fin*/
 
 /*medias query*/
 @media (min-width: 1200px){
@@ -363,6 +470,28 @@ body.room-details .room-details .services li {
     float: left;
     margin-left: 35%;
 }
+#great-taste h3 {
+    font-size: 32px;
+    margin-top: 2.5% !important;
+    padding-top: 140px;
+}
+
+#great-taste h3 span{
+    font-size: 32px;
+    margin-top: 2%;
+}
+
+.text-degustación  {
+    padding-top: 350px;
+}
+
+.text-degustación {
+    line-height: 35px;
+}
+.spacing {
+     margin-top: 80px;
+}
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
@@ -375,6 +504,30 @@ body.room-details .room-details .services li {
     margin-top: 35px;
     font-size: 26px;
 }
+
+#great-taste h3 {
+    font-size: 26px;
+    margin-top: 4.5% !important;
+    padding-top: 140px;
+}
+
+#great-taste h3 span{
+    font-size: 26px;
+    margin-top: 8%;
+}
+
+.text-degustación p {
+  margin-top: 350px;
+}
+
+.text-degustación {
+    line-height: 35px;
+}
+
+.spacing {
+     margin-top: 80px;
+}
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 600px){
@@ -387,8 +540,49 @@ body.room-details .room-details .services li {
     margin-top: 20px;
     font-size: 22px;
 }
+
+.restaurante-contacto h3 {
+    text-align: center;
+}
+
+.restaurante-horario h3 {
+  text-align: center;
+}
+
 .text-politica {
     margin-top: 15px;
     font: 16px/20px "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
+
+#great-taste h3 {
+    font-size: 20px;
+    margin-top: 10.5% !important;
+    padding-top: 110px;
+}
+
+#great-taste h3 span{
+    font-size: 20px;
+    margin-top: 18%;
+}
+
+.text-degustación p {
+  margin-top: 310px;
+}
+
+.text-degustación {
+    line-height: 35px;
+}
+
+.spacing{
+  margin: 0px;
+}
+
+.text-degustación p {
+    font-size: 22px;
+}
+
+.text-degustación span {
+    font-size: 22px;
+}
+
 }
