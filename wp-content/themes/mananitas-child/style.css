@@ -172,6 +172,18 @@ body.room-details .room-details .services li {
     color: #c5a46d;
     text-transform: capitalize;
 }
+.img-instalaciones{
+-webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+.img-instalaciones:Hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .mio{
     width: 120px;
     margin: 48px auto;
@@ -210,7 +222,7 @@ body.room-details .room-details .services li {
 }
 
 .marco2{
-    height: 60%;
+    height: 65%;
     width: 450px;
     border: 3px solid #FFFFFF;
     -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
@@ -242,10 +254,34 @@ body.room-details .room-details .services li {
     width: 67% !important;
     height: 300px;
     float: right;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+    opacity: .8;
 }
 
+.size-servicios img:hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
 .circuito{
    margin: 0 13% !important;
+}
+.img-circ{
+-webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+.img-circ:Hover{
+    -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .marco .flexslider {
     margin: 0 0 0px !important;
@@ -266,10 +302,73 @@ body.room-details .room-details .services li {
     line-height: 42px;
     list-style-position: initial;
 }
-/*medias query*/
-@media (min-width: 1200px){
-.container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
-   /* width: 89% !important;*/
+
+.size-full-trata{
+
+}
+.mov-row-trata{
+    margin: 0 10%;
+}
+.title-trat{
+    font-family: 'Lora', serif !important;
+    font-size: 24px;
+    color:#c5a46d;
+    font-weight: 500;
+}
+.linea-trat{
+    border-bottom: solid 1px #f4f3f3;
+    padding-bottom: 4%;
+    line-height: 25px;
+}
+
+.linea-trat strong{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.y-mas-trat{
+    color: #c3a26d;
+    font-family: 'Lora', serif !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.size-trata{
+    /* width: 30%; */
+    /* margin-right: 3%; */
+    /*height: 849px;*/
+    /* margin-bottom: 3%; */
+    margin: 0 1% 1% 1%;
+    width: 31%;
+}
+.descarga-trata{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+.descarga-trata-down span{
+    font-family: 'Lora', serif !important;
+    font-size: 24px;
+    font-weight: 500;
+}
+/*.anime{
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}*/
+.img-bouti{
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+.img-bouti:Hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+transform: scale(1.1);
 }
 
 /*Paginas interiores************************/
@@ -338,15 +437,135 @@ body.room-details .room-details .services li {
 @media only screen and (min-width:992px) and (max-width:1200px){
 }
 
-@media only screen and (min-width:600px) and (max-width:992px){
+
+/*medias query*/
+@media (min-width: 1200px){
+.container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
+   /* width: 89% !important;*/
 }
 
+@media (max-width: 600px){
+
+}
+
+@media (max-width: 345px){}
+.logo1 {
+    width: 60px !important;
+    height: 60px !important;
+    float: right;
+}
+}
+/*medias query est.*/
 @media only screen and (min-width:200px) and (max-width:600px){
 /*home*/
 .logo1 {
-    width: 60px;
-    height: 60px;
-    float: right;
+    width: 60px !important;
+    height: 60px !important;
 }
+body.sticky #main-header.sticky .inner-container > div {
+    height: 71px;
+}
+.titulo-spa {
+    font-size: 22px !important;
+}
+.vc_custom_1491930250274 {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.title-spa2 {
+    font-size: 22px !important;
+}
+.titulos-spam {
+    height: 301px !important;
+}
+.contenido-span {
+    font-size: 15px !important;
+    line-height: 24px !important;
+}
+.marco2 {
+    height: 38% !important;
+    width: 305px !important;
+    position: static !important;
+    margin: 0 2% !important;
+}
+.marco2 ul {
+    list-style-image: url(img/lista.png);
+    margin: 0px !important;
+}
+.marco2 ul li {
+  font-size: 15px !important;
+  line-height: 32px !important;
+}
+.size-servicios img {
+    width: 100% !important;
+}
+.servicios-lista {
+    width: 100% !important;
+}
+.size-trata {
+    margin: 0 1% 7% 1% !important;
+    width: 100% !important;
+}
+.descarga-trata {
+  font-size: 17px !important;
+}
+.descarga-trata-down span {
+  font-size: 17px !important;
+}
+.widget-title {
+  font-size: 20px !important;
+  text-align: center !important;
+
+}
+#top-footer #text-2 h4 {
+    text-align: center !important;
+}
+
+
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:992px){
+ .title-spa2 {
+    font-size: 27px;
+}
+.circuito {
+    margin: 0 3% !important;
+}
+
+.servicios-lista {
+    width: 68%;
+}
+.mov-row-trata {
+    margin: 0 0%;
+}
+.size-trata {
+    /* width: 30%; */
+    /* margin-right: 3%; */
+    /* height: 849px; */
+    /* margin-bottom: 3%; */
+    margin: 0px 0% 2% 0%;
+    width: 100%;
+}
+.title-spa2 {
+    font-size: 40px;
+}
+.circuito {
+    margin: 0 3% !important;
+}
+.mov-row-trata {
+    margin: 0 0%;
+}
+.owl-theme .owl-controls {
+    bottom: 244px;
+}
+#luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
+    height: 249px;
+}
+
+
+
+
 
 }
