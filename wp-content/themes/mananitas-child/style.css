@@ -217,6 +217,19 @@ body.room-details .room-details .services li {
     position: absolute;
     background: #fff;
 }
+.marco3{
+    height: 370px;
+    width: 490px;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    box-shadow: 0 0 0 2px #C5A46D, inset 0 0 0 1px #C5A46D;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 2;
+    position: absolute;
+    background: #fff;
+}
 .marco2 ul{
     list-style-image: url('img/lista.png');
     margin: 4% 0 0 12%;
@@ -238,7 +251,20 @@ body.room-details .room-details .services li {
     height: 300px;
     float: right;
 }
->>>>>>> 6fc8e64e21b7f5b81fa9a071639b6cacb1751283
+
+
+.circuito{
+   margin: 0 13% !important;
+}
+.marco .flexslider {
+    margin: 0 0 0px !important;
+    border:none;
+}
+
+.marco .imagen{
+
+}
+
 /*medias query*/
 @media (min-width: 1200px){
 .container, body.boxed #main-wrapper, body.boxed #main-wrapper #main-header.sticky .inner-container {
