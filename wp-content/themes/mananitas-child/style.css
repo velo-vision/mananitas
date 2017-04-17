@@ -399,7 +399,6 @@ body.room-details .room-details .services li {
     font-weight: 500;
     font-size: 18px;
     color: #999999;
-    text-transform: capitalize;
     line-height: 40px;
 }
 .size-servicios{
@@ -516,12 +515,15 @@ transition: 1s ease;
  -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+.by{
+    font-size: 25px !important;
+}
 /*bodas*/
 .lista-service-boda{
     font-family: 'Source Sans Pro', sans-serif !important;
-   font-weight: 300;
-   font-size: 17px;
-   color: #999999;
+    font-weight: 300;
+    font-size: 17px;
+    color: #999999;
 }
 .lista-service-boda ul li{
     list-style-image: url('img/lista.png');
@@ -529,6 +531,74 @@ transform: scale(1.1);
     line-height: 35px;
     padding-left: 27px;
 }
+.bold h2{
+    font-weight: bold;
+}
+.sepa-izq{
+    width: 93%;
+    margin: 4% 0 0 8%;
+}
+
+.sepa-derec{
+    width: 120%;
+}
+.sep-img{
+    width: 80%;
+    margin: 0 0 10% 10%;
+}
+.img-boda{
+-webkit-transition: 1s ease;
+-moz-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+.img-boda:Hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+transform: scale(1.1);
+}
+.certificacion-boda{
+    font-family: 'Lora', serif !important;
+    text-transform: uppercase;
+}
+.mayor-cnt{
+    position: relative;
+    padding: 4% 0;
+}
+.contacto-img{
+    position: absolute;
+    left: 62%;
+    background: #fff;
+    top: 13%;
+    height: 330px;
+}
+.img-cnt img{
+    height: 280px;
+}
+.linea-marco-res{
+    border-top: solid 2px #c7a876;
+    border-bottom: solid 2px #c7a876;
+}
+.reser{
+    font-family: 'Lora', serif !important;
+    font-weight: bold;
+    font-size: 29px;
+    color: #c7a876;
+}
+.tel-boda{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 28px;
+
+}
+.cont-tel-boda{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 28px;
+}
+.logo-man{
+    margin-left: 24%;
+}
+
 /*fin*/
 /*Paginas interiores************************/
 
@@ -599,9 +669,6 @@ transform: scale(1.1);
    /* width: 89% !important;*/
 }
 
-@media (max-width: 600px){
-
-}
 
 @media (max-width: 345px){}
 .logo1 {
@@ -691,6 +758,55 @@ top: 0px;
  -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+/*bodas*/
+.tm .heading-box .wpb_wrapper h2 {
+    font-size: 20px !important;
+}
+.sepa-izq {
+    width: 100%;
+    margin: 0%;
+}
+.lista-service-boda ul li {
+    line-height: 28px;
+    padding-left: 5px;
+}
+.sepa-derec {
+    width: 100%;
+}
+.contacto-img {
+    position: initial;
+    left: 0px;
+    top: 0px;
+    height: 276px;
+    margin: 5%;
+    width: 90%;
+}
+.logo-man{
+    margin-left: 14%;
+}
+.reser {
+    font-size: 20px;
+}
+.cont-tel-boda {
+    font-size: 20px;
+}
+.img-cnt img {
+    height: 200px;
+}
+.img-service img {
+    width: 100% !important;
+}
+/**/
+/*footer*/
+.hotel {
+    text-align: center !important;
+}
+#top-footer .textwidget{
+    padding: 0px !important;
+}
+#top-footer .widget ul {
+    padding: 0px;
+}
 
 }
 
@@ -732,7 +848,25 @@ transform: scale(1.1);
 #luxury-rooms .room-boxes .img-container, #special-dishes .room-boxes .img-container, #luxury-rooms .package-boxes .img-container, #special-dishes .package-boxes .img-container, #special-packages-type-2 .room-boxes .img-container, #special-packages-type-2 .package-boxes .img-container {
     height: 249px;
 }
+/*boda*/
+.sep-img {
+    width: 67%;
+    margin: 20% 0 10% 25%;
+}
+.sepa-derec {
+    width: 190%;
+    margin-top: 20%;
+}
+.contacto-img {
+    left: 63%;
+    height: 305px;
+}
+.logo-man {
+    margin-left: 14%;
+    width: 150px;
+}
 
+/**/
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
@@ -751,7 +885,11 @@ transform: scale(1.1);
 .servicios-lista {
     width: 68%;
 }
-
+/*bodas*/
+.logo-man {
+    margin-left: 16%;
+}
+/**/
 }
 
 /*JRG Medias*/

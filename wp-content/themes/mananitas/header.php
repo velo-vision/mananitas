@@ -149,12 +149,17 @@ $page_meta_class = (get_post_meta( get_the_id() , 'pinar_page_class', true ) ? g
 			 ! is_page_template( 'templates/wide-no-bread.php')
 		)
 		{
+			if(get_the_id() == 272){
 			$main_page_title       = explode(' | ', wp_title( " | ", false, "right" ));
 
 			echo '
 			<!-- Internal Page Header -->
 			<div class="internal-page-title about-page" data-parallax="scroll" data-image-src="'.esc_attr( ravis_fn_breadcrumb_bg( get_the_id() ) ).'">
-				<h1>'.balancetags(ravis_fn_title_effect($main_page_title[0])).'</h1>';
+
+				<h1>'.balancetags(ravis_fn_title_effect($main_page_title[0])).'</h1>
+				<h1 class="by">by Las Mañanitas</h1>
+				';
+
 
 				if(function_exists('ravis_fn_breadcrumbs'))
 		        {
@@ -162,4 +167,26 @@ $page_meta_class = (get_post_meta( get_the_id() , 'pinar_page_class', true ) ? g
 		        }
 	        echo '</div>
 			<!-- End of Internal Page Header -->';
-		}	
+		}else{
+			$main_page_title       = explode(' | ', wp_title( " | ", false, "right" ));
+
+			echo '
+			<!-- Internal Page Header -->
+			<div class="internal-page-title about-page" data-parallax="scroll" data-image-src="'.esc_attr( ravis_fn_breadcrumb_bg( get_the_id() ) ).'">
+
+				<h1>'.balancetags(ravis_fn_title_effect($main_page_title[0])).'</h1>';
+
+
+				if(function_exists('ravis_fn_breadcrumbs'))
+		        {
+		            ravis_fn_breadcrumbs();
+		        }
+	        echo '</div>
+			<!-- End of Internal Page Header -->';
+		}
+			
+		}
+
+
+		
+			
