@@ -71,7 +71,7 @@ get_header();
 					<div class="img-container col-xs-6 col-md-7">
 						<img src="'.esc_attr($resaurant_dishes['image']).'" alt="'.esc_attr($resaurant_dishes['title']).'" class="room-img">
 					</div>
-					<div class="room-details col-xs-6 col-md-5">
+					<div class="room-details col-xs-6 col-md-5 imagen-comida">
 						<div class="title">'.esc_html__($resaurant_dishes['title'], 'pinar').'</div>
 						<div class="description">'.esc_html__($resaurant_dishes['description'], 'pinar').'</div>';
 					if(!empty($resaurant_dishes['url']))
