@@ -32,6 +32,29 @@
     margin: 0px 0;
 }
 
+#main-slider .owl-controls {
+    bottom: 10px;
+}
+
+#luxury-rooms h2, #special-dishes h2, #special-packages-type-2 h2 {
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.heading-box h2{
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.heading-box h2 b {
+    font-weight: bold;
+}
+
+.internal-pages .heading-box h2 {
+    font-weight: bold;
+}
+
 /*Restaurant*************/
 .restaurant-title{
   margin-top: 50px;
@@ -41,6 +64,7 @@
     font: 1.7em/2em "Lora", Arial, Helvetica, sans-serif;
     color: #C5A46D;
     line-height: normal;
+    text-align: left;
 }
 
 #great-taste h2 {
@@ -158,7 +182,7 @@ body.room-details .room-details .description {
     max-width: 1070px;
     line-height: 25px;
     letter-spacing: 1px;
-    margin: 20px auto 40px;
+    margin: 0px auto 40px;
 }
 
 body.room-details .booking-title-box {
@@ -166,7 +190,7 @@ body.room-details .booking-title-box {
     position: relative;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    margin-top: 150px
+    margin-top: 100px
 }
 
 body.room-details .booking-title-box .heading-box {
