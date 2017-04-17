@@ -710,6 +710,9 @@ transform: scale(1.1);
 
 /*JRG Medias*/
 @media only screen and (min-width: 768px) and (max-width: 992px){
+  body.sticky #main-header.sticky {
+    position: inherit !important;
+}
   .logo1 {
     width: 68px;
     height: 77px;
@@ -741,6 +744,9 @@ transform: scale(1.1);
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
+  body.sticky #main-header.sticky {
+    position: inherit !important;
+}
   .logo1 {
     float: left;
     margin-left: 25%;
@@ -777,6 +783,25 @@ transform: scale(1.1);
 }
 
 @media only screen and (min-width: 200px) and (max-width: 600px){
+  .internal-page-title {
+    margin-top: 0;
+    padding: 100px 0;
+}
+  #special-dishes .room-boxes {
+      height: 330px;
+      margin-bottom: 280px;
+  }
+
+  body.sticky #main-header.sticky {
+    position: inherit !important;
+    top: 26px;
+    left: 0;
+    height: 100px !important;
+    background: #FFFFFF;
+    z-index: 20;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
   .logo1 {
     float: left;
     margin-left: 15%;
