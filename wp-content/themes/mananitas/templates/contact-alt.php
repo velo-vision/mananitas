@@ -1,9 +1,9 @@
 <?php
 /**
  *	contact-alt.php
- * 	Contact Alternative template 
+ * 	Contact Alternative template
  *  Template Name: Contact Alternative
- */	
+ */
 global $pinar_opt;
 get_header();
 ?>
@@ -37,7 +37,7 @@ get_header();
 				<div class="desc"><?php echo balancetags($pinar_opt['opt-contact-text']); ?></div>
 			</div>
 			<div class="contact-form-box col-md-8">
-				<?php 
+				<?php
 					if(have_posts())
 					{
 						while (have_posts()) {

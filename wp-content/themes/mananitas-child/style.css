@@ -38,21 +38,26 @@
 
 #luxury-rooms h2, #special-dishes h2, #special-packages-type-2 h2 {
     margin-top: 70px;
-    font-weight: bold;
 }
 
 .heading-box h2{
   margin-top: 70px;
   margin-bottom: 40px;
-  font-weight: bold;
+}
+
+.contact-page-container .contact-form-container .how-contact .desc {
+    line-height: 25px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .heading-box h2 b {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .internal-pages .heading-box h2 {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /*Restaurant*************/
@@ -106,6 +111,10 @@
   color: #c5a46d;
   font-weight: 600;
   font-family: 'Lora', serif !important;
+}
+
+.wpb_wrapper strong{
+  font-weight: 500;
 }
 
 #great-taste h3 {

@@ -44,9 +44,9 @@ get_header();
 	                $service_post   = get_post($room_service);
 	                if(!empty($service_post->post_title))
 	                {
-	             		$features_list .= '<li><i class="fa fa-check"></i>'.esc_html($service_post->post_title).'</li>';   	
+	             		$features_list .= '<li><i class="fa fa-check"></i>'.esc_html($service_post->post_title).'</li>';
 	                }
-	            }  				
+	            }
 			}
 			$rooms_max_guest = get_post_meta($post_id, 'rooms_max_guest', true);
 			$rooms_room_size = get_post_meta($post_id, 'rooms_room_size', true);
@@ -66,17 +66,17 @@ get_header();
 
 			echo '
 			<div class="room-box clearfix">
-				<div class="img-container col-xs-6">';
+				<div class="img-container col-xs-6" height="335px !important;">';
 
 				if($room_cover != '')
                 {
-                	echo wp_get_attachment_image( $room_cover, $thumb_size ); 
+                	echo wp_get_attachment_image( $room_cover, $thumb_size );
                 }
                 else
                 {
                 	echo '<img src="'. esc_url ( PINAR_IMG_PATH ).'room-placeholder.jpg" alt="'. esc_attr( esc_html__('No Image','pinar') ).'" />';
                 }
-				
+
 			echo '
 					<a href="'.esc_url(get_permalink()).'" class="btn btn-default btn-out-border">'.esc_html__('More Details', 'pinar').'</a>
 				</div>
@@ -85,13 +85,11 @@ get_header();
 					<div class="desc">
 						'.esc_html($rooms_short_desc).'
 						<ul class="facilities list-inline">
-							'.$features_list.'							
+							'.$features_list.'
 						</ul>
 					</div>
-					<div class="price">
-						<span>'.esc_html(ravis_fn_price_value($rooms_price)).'</span>
-						'.esc_html__('- Per Night', 'pinar').'
-					</div>
+
+
 				</div>
 			</div>';
 		}
@@ -102,4 +100,8 @@ get_header();
 		esc_html_e('There is not any rooms!', 'pinar');
 	}
 	ravis_fn_pagination($pinar_rooms_list);
+  // <div class="price">
+  //   <span>'.esc_html(ravis_fn_price_value($rooms_price)).'</span>
+  //   '.esc_html__('- Per Night', 'pinar').'
+  // </div>
 get_footer();
