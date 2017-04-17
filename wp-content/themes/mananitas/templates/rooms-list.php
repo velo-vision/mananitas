@@ -66,7 +66,7 @@ get_header();
 
 			echo '
 			<div class="room-box clearfix">
-				<div class="img-container col-xs-6" height="335px !important;">';
+				<div class="img-container col-xs-6">';
 
 				if($room_cover != '')
                 {
