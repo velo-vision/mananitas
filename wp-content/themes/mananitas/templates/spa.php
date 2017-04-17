@@ -10,6 +10,7 @@ get_header();
 
 $page_id    = ( get_post_meta( $post->ID, 'pinar_page_id' ) != null ? get_post_meta( $post->ID, 'pinar_page_id', true ) : '' );
 $page_class = ( get_post_meta( $post->ID, 'pinar_page_class' ) != null ? get_post_meta( $post->ID, 'pinar_page_class', true ) : '' );
+			
 
 	echo '<section '.(isset($page_id) && $page_id !='' ? ('id="'.esc_attr( $page_id ).'"') : '').' class="container main-page-container size-spa'.($page_class !=='' ? esc_attr( $page_class ) : '').'">';
 

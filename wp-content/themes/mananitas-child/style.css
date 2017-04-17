@@ -390,7 +390,6 @@ body.room-details .room-details .services li {
     font-weight: 500;
     font-size: 18px;
     color: #999999;
-    text-transform: capitalize;
     line-height: 40px;
 }
 .size-servicios{
@@ -507,6 +506,9 @@ transition: 1s ease;
  -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+.by{
+    font-size: 25px !important;
+}
 /*bodas*/
 .lista-service-boda{
     font-family: 'Source Sans Pro', sans-serif !important;
@@ -587,6 +589,7 @@ transform: scale(1.1);
 .logo-man{
     margin-left: 24%;
 }
+
 /*fin*/
 /*Paginas interiores************************/
 
