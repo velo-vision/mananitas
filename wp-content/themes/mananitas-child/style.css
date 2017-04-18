@@ -518,6 +518,10 @@ transform: scale(1.1);
 .by{
     font-size: 25px !important;
 }
+/*habitaciones*/
+.size-rooms img {
+    height: 403px !important;
+}
 /*bodas*/
 .lista-service-boda{
     font-family: 'Source Sans Pro', sans-serif !important;

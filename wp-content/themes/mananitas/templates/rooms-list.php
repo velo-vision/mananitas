@@ -30,7 +30,7 @@ get_header();
         		$post_id          = get_the_id();
         	}
 			$post_id              = get_the_id();
-			$thumb_size           = array('580', '380' );
+			$thumb_size           = array('580', '400' );
 			$raw_rooms_price      = get_post_meta( $post_id, 'rooms_price', true );
 			$raw_rooms_short_desc = get_post_meta( $post_id, 'rooms_short_desc', true );
 			$rooms_price          = !empty($raw_rooms_price) ? $raw_rooms_price : '';
@@ -66,7 +66,7 @@ get_header();
 
 			echo '
 			<div class="room-box clearfix">
-				<div class="img-container col-xs-6">';
+				<div class="img-container col-xs-6 size-rooms">';
 
 				if($room_cover != '')
                 {
@@ -74,11 +74,11 @@ get_header();
                 }
                 else
                 {
-                	echo '<img src="'. esc_url ( PINAR_IMG_PATH ).'room-placeholder.jpg" alt="'. esc_attr( esc_html__('No Image','pinar') ).'" />';
+                	echo '<img class="size-rooms" src="'. esc_url ( PINAR_IMG_PATH ).'room-placeholder.jpg" alt="'. esc_attr( esc_html__('No Image','pinar') ).'" />';
                 }
 
 			echo '
-					<a href="'.esc_url(get_permalink()).'" class="btn btn-default btn-out-border">'.esc_html__('More Details', 'pinar').'</a>
+					<a href="'.esc_url(get_permalink()).'" class="btn btn-default btn-out-border">'.esc_html__('Más Detalles', 'pinar').'</a>
 				</div>
 				<div class="details col-xs-6">
 					<div class="title"><a href="'.esc_url(get_permalink()).'">'.ravis_fn_title_effect(esc_html(get_the_title())).'</a></div>

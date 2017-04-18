@@ -60,7 +60,7 @@ while ( have_posts() )
 	    </div>
 		<!-- BOTON RESERVAR -->
 			<div class="boton-center">
-				<form class="booking-form" action="http://localhost/proyectos/mananitas/?page_id=175" method="post">
+				<form class="booking-form" action="https://reservations.synxis.com/gc/rez.aspx?Hotel=22810&Chain=8565&locale=es-ES&adult=2" method="post">
 						<div class="booking-button-container reservar col-xs-12">
 								<input class="btn btn-default" value="Reservar" type="submit">
 						</div>
